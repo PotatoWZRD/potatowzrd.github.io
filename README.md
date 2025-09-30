@@ -1,7 +1,9 @@
 # potatowzrd.github.io
 
-<button type="button" id="button">Click Me!</button>
+<button type="button" onclick="clicked">Click Me!</button>
 
-document.getElementById('button').onclick = function() {
-   alert("button was clicked");
-}​;​
+<script>
+function clicked() {
+  alert("Hello! I am an alert box!");
+}
+</script>
