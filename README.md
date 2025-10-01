@@ -9,7 +9,7 @@ function clicked() {
 </script>
 
 <script>
-    const ws = new WebSocket('ws://localhost:8080');
+    const ws = new WebSocket('ws://localhost:3000');
 
     ws.addEventListener('open', () => {
         console.log('Connected to WebSocket server');
