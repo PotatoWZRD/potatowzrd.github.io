@@ -4,7 +4,7 @@
 
 <script>
 function clicked() {
-    ws.send('got it');
+    ws.send('{\"type\":\"button\",\"client\":\"abrahma\"}'); });
 }
 </script>
 
