@@ -11,5 +11,5 @@ function clicked() {
 <script>
     const ws = new WebSocket('ws://localhost:3000');
 
-    ws.addEventListener('open', () => { console.log('Connected to WebSocket server'); ws.send('Hello from the client!'); });
+    ws.addEventListener('open', () => { console.log('Connected to WebSocket server'); ws.send('{\"type\":\"connect\",\"client\":\"client\"}'); });
 </script>
