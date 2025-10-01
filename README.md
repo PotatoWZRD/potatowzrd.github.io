@@ -1,6 +1,6 @@
 # potatowzrd.github.io
 
-<button type="button" onclick="clicked()">Click Set2h!</button>
+<button type="button" onclick="clicked()">Click the button, Tilia!</button>
 
 <script>
 function clicked() {
