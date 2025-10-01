@@ -1,9 +1,10 @@
 # potatowzrd.github.io
 
-<button type="button" onclick="clicked()">Click Abrahm!</button>
+<button type="button" onclick="clicked()">Click Abrahm2!</button>
 
 <script>
 function clicked() {
+    console.log('test');
     ws.send('{\"type\":\"button\",\"client\":\"abrahma\"}'); });
 }
 </script>
