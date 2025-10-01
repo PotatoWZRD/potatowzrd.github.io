@@ -4,17 +4,12 @@
 
 <script>
 function clicked() {
-    ws.addEventListener('message', () => {
-        console.log('got it');
-    });
+    ws.send("got it");
 }
 </script>
 
 <script>
     const ws = new WebSocket('ws://localhost:3000');
 
-
-    ws.addEventListener('message', () => {
-        console.log('got it');
-    });
+    ws.addEventListener('open', () => { console.log('Connected to WebSocket server'); ws.send('Hello from the client!'); });
 </script>
