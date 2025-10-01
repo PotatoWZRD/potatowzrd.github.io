@@ -4,7 +4,9 @@
 
 <script>
 function clicked() {
-  alert("Hello! I am an alert box!");
+    ws.addEventListener('message', () => {
+        console.log('got it');
+    });
 }
 </script>
 
