@@ -1,6 +1,6 @@
 # potatowzrd.github.io
 
-<button type="button" onclick="clicked()">Click the bgfutweton, we!</button>
+<button type="button" onclick="clicked()">Click the button, final!</button>
 
 <script>
 function clicked() {
