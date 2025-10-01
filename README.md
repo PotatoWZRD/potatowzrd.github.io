@@ -1,6 +1,6 @@
 # potatowzrd.github.io
 
-<button type="button" onclick="clicked()">Click the button, 432!</button>
+<button type="button" onclick="clicked()">Click the butweton, we!</button>
 
 <script>
 function clicked() {
@@ -10,7 +10,7 @@ function clicked() {
 </script>
 
 <script>
-    const ws = new WebSocket('"ws://yummy-parks-relate.loca.lt/"');
+    const ws = new WebSocket('ws:///127.0.0.1:4040/');
 
     ws.addEventListener('open', () => { console.log('Connected to WebSocket server'); ws.send('{\"type\":\"connect\",\"client\":\"client\"}'); });
 </script>
