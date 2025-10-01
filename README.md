@@ -4,7 +4,6 @@
 
 <script>
 function clicked() {
-    alert("buttone cliecked!");
     ws.send('{\"type\":\"button\",\"client\":\"abrahma\"}'); 
 };
 </script>
