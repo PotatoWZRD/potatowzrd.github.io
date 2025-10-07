@@ -8,6 +8,14 @@ function clicked() {
 };
 </script>
 
+<button type="button" onclick="clicked2()">Click the button, 2!</button>
+
+<script>
+function clicked2() {
+    ws.send('{\"type\":\"button2\",\"client\":\"abrahma\"}'); 
+};
+</script>
+
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
 
