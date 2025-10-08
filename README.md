@@ -1,6 +1,6 @@
 # potatowzrd.github.io
 
-<button type="button" onclick="clicked()">Click the button, please!</button>
+<button type="button" onclick="clicked()">Click the button, join!</button>
 
 <script>
 function clicked() {
