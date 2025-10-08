@@ -1,6 +1,6 @@
 # potatowzrd.github.io
 
-<button type="button" onclick="clicked()">Click the button, join!</button>
+<button type="button" onclick="clicked()">Click the button, please!</button>
 
 <script>
 function clicked() {
@@ -22,6 +22,6 @@ function clicked2() {
     ws.addEventListener('open', () => 
         { console.log('Connected to WebSocket server'); ws.send('{\"type\":\"connect\",\"client\":\"client\"}'); });
     
-    ws.addEventListener('message', () => 
-        { console.log(data);});
+    ws.addEventListener('message', function (event) => 
+        { console.log(event.data);});
 </script>
