@@ -22,6 +22,6 @@ function clicked2() {
     ws.addEventListener('open', () => 
         { console.log('Connected to WebSocket server'); ws.send('{\"type\":\"connect\",\"client\":\"client\"}'); });
     
-    ws.addEventListener('jumped', () => 
+    ws.addEventListener('message', () => 
         { console.log(data);});
 </script>
