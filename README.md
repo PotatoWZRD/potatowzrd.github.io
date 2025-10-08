@@ -19,5 +19,9 @@ function clicked2() {
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
 
-    ws.addEventListener('open', () => { console.log('Connected to WebSocket server'); ws.send('{\"type\":\"connect\",\"client\":\"client\"}'); });
+    ws.addEventListener('open', () => 
+        { console.log('Connected to WebSocket server'); ws.send('{\"type\":\"connect\",\"client\":\"client\"}'); });
+    
+    ws.addEventListener('jumped', () => 
+        { console.log(data);});
 </script>
