@@ -1,6 +1,6 @@
 # potatowzrd.github.io
 
-<button type="button" onclick="clicked()">Click the button, fun!</button>
+<button type="button" onclick="clicked()">Click the button, join!</button>
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
@@ -16,12 +16,14 @@
 
 <script>
 function clicked() {
+    console.log('button clickwed');
     ws.send('{\"type\":\"button\",\"client\":\"abrahma\"}'); 
 };
 </script>
 
 <script>
 function clicked2() {
+    console.log('second buttonr');
     ws.send('{\"type\":\"button2\",\"client\":\"abrahma\"}'); 
 };
 </script>
