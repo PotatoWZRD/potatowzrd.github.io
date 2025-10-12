@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00015');</script>
+<script>console.log('00016');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -89,11 +89,11 @@ let des1 = document.getElementById('topC')
 let col1 = document.getElementById('test1')
     col1.addEventListener('input', (event) => {
         des1.style.fill = event.target.value;
-    }
+    })
 let des2 = document.getElementById('botC');
 let col2 = document.getElementById('test2');
     col1.addEventListener('input', (event) => {
         des2.style.fill = event.target.value;
-    }
+    })
 </script>  
 </svg>
