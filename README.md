@@ -56,6 +56,6 @@ document.getElementById('sname').innerHTML = sname;
 <span id="sname"></span>
 
 <div class="relative">
-    <img src="marbleBase.png" class="absolute" z-index: -10/>
+    <img src="marbleBase.png" class="absolute" class="z-10"/>
     <img src="bottom.png" class="absolute" />
 </div>
