@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00008');</script>
+<script>console.log('00009');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -54,9 +54,7 @@ document.getElementById('sname').innerHTML = sname;
 <span id="fname"></span>
 <span id="sname"></span>
 
-<script>
-<input type="color" value="#ffffff">
-</script>
+<input type="color" value="#ffffff" id="test1">
 
 <style>
     .container{
