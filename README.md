@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00009');</script>
+<script>console.log('00010');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -55,23 +55,33 @@ document.getElementById('sname').innerHTML = sname;
 <span id="sname"></span>
 
 <input type="color" value="#ffffff" id="test1">
+<input type="color" value="#ffffff" id="test2">
 
-<style>
-    .container{
-        position:relative;
-    }
-    .container > img{
-        position:absolute;
-        top:0;
-        left:0;
-        background: transparent;
-    }
-    .container > img:first-child{
-        z-index: -10;
-    }
-</style>
+var fColor = document.getElementById("test1").value;
+var sColor = document.getElementById("test2").value;
 
-<div class="container">
-    <img src="marbleBase.png"/>
-    <img src="bottom.png"/>
-</div>
+<svg width="256" height="256" viewBox="0 0 256 256">
+
+  <path
+    d="
+      M 253 128
+      A 125 125 0 0 1 3 128
+      A 62.5 62.5 0 0 1 128 128
+      A 62.5 62.5 1 0 0 253 128
+      "
+    fill="fColor"
+    stroke="black"
+    stroke-width="2"
+  />
+   <path
+    d="
+      M 3 128
+      A 125 125 0 0 1 253 128
+      A 62.5 62.5 0 0 1 128 128
+      A 62.5 62.5 1 0 0 3 128
+      "
+    fill="sColor"
+    stroke="black"
+    stroke-width="2"
+  />
+</svg>
