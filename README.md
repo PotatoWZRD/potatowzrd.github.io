@@ -55,5 +55,7 @@ document.getElementById('sname').innerHTML = sname;
 <span id="fname"></span>
 <span id="sname"></span>
 
-
-<img src="testIMG.png" alt="Chipotle" width="500" height="600">
+<div class="container">
+    <img src="marbleBase" />
+    <img src="bottom" class="bottom" />
+</div>
