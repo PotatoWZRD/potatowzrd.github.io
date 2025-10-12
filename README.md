@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00004');</script>
+<script>console.log('00005');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -62,6 +62,7 @@ document.getElementById('sname').innerHTML = sname;
         position:absolute;
         top:0;
         left:0;
+        background: transparent;
     }
     .container > img:first-child{
         z-index: -10;
