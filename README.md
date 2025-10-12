@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00012');</script>
+<script>console.log('00013');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -71,7 +71,7 @@ var sColor = document.getElementById("test2").value;
       A 62.5 62.5 0 0 1 128 128
       A 62.5 62.5 1 0 0 253 128
       "
-    fill=fColor
+    fill= var(--fColor)
     stroke="black"
     stroke-width="2"
   />
