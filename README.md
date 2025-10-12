@@ -55,7 +55,7 @@ document.getElementById('sname').innerHTML = sname;
 <span id="fname"></span>
 <span id="sname"></span>
 
-<div class="container">
-    <img src="marbleBase.png" />
-    <img src="bottom.png" class="image2" />
+<div class="relative">
+    <img src="marbleBase.png" class="absolute" z-index: -10/>
+    <img src="bottom.png" class="absolute" />
 </div>
