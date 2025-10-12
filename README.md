@@ -56,6 +56,6 @@ document.getElementById('sname').innerHTML = sname;
 <span id="sname"></span>
 
 <div class="container">
-    <img src="marbleBase" />
-    <img src="bottom" class="bottom" />
+    <img src="marbleBase.png" />
+    <img src="bottom.png" class="image" />
 </div>
