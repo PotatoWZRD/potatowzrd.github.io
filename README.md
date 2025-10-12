@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('v:1');</script>
+<script>console.log('2');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -54,7 +54,18 @@ document.getElementById('sname').innerHTML = sname;
 <span id="fname"></span>
 <span id="sname"></span>
 
+<style>
+    .back{
+        position:relative;
+        z-index:-10;
+    }
+    
+    .top{
+        position:absolute;
+    }
+</style>
+
 <div class="relative">
-    <img src="marbleBase.png" class="-z-10"/>
-    <img src="bottom.png" class="absolute" class="z-0"/>
+    <img src="marbleBase.png" class="back"/>
+    <img src="bottom.png" class="top"/>
 </div>
