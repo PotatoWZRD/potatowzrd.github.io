@@ -57,5 +57,5 @@ document.getElementById('sname').innerHTML = sname;
 
 <div class="container">
     <img src="marbleBase.png" />
-    <img src="bottom.png" class="image" />
+    <img src="bottom.png" class="image2" />
 </div>
