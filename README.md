@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00013');</script>
+<script>console.log('00014');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -57,11 +57,6 @@ document.getElementById('sname').innerHTML = sname;
 <input type="color" value="#ffffff" id="test1">
 <input type="color" value="#ffffff" id="test2">
 
-<script>
-var fColor = document.getElementById("test1").value;
-var sColor = document.getElementById("test2").value;    
-</script>
-
 <svg width="256" height="256" viewBox="0 0 256 256">
 
   <path
@@ -71,7 +66,8 @@ var sColor = document.getElementById("test2").value;
       A 62.5 62.5 0 0 1 128 128
       A 62.5 62.5 1 0 0 253 128
       "
-    fill= var(--fColor)
+    fill= "white"
+    id="topC"
     stroke="black"
     stroke-width="2"
   />
@@ -82,8 +78,22 @@ var sColor = document.getElementById("test2").value;
       A 62.5 62.5 0 0 1 128 128
       A 62.5 62.5 1 0 0 3 128
       "
-    fill="sColor"
+    fill= "white"
+    id="botC"
     stroke="black"
     stroke-width="2"
   />
+
+<script>
+let des1 = document.getElementById("topC");
+let col1 = document.getElementById("test1");
+    col1.addEventListener("input", (event) => {
+        des1.style.fill = event.target.value;
+    }
+let des2 = document.getElementById("botC");
+let col2 = document.getElementById("test2");
+    col1.addEventListener("input", (event) => {
+        des2.style.fill = event.target.value;
+    }
+</script>  
 </svg>
