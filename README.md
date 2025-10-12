@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00010');</script>
+<script>console.log('00011');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -57,8 +57,10 @@ document.getElementById('sname').innerHTML = sname;
 <input type="color" value="#ffffff" id="test1">
 <input type="color" value="#ffffff" id="test2">
 
+<script>
 var fColor = document.getElementById("test1").value;
-var sColor = document.getElementById("test2").value;
+var sColor = document.getElementById("test2").value;    
+</script>
 
 <svg width="256" height="256" viewBox="0 0 256 256">
 
