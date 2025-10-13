@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00017');</script>
+<script>console.log('00018');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -57,7 +57,7 @@ document.getElementById('sname').innerHTML = sname;
 <input type="color" value="#ffffff" id="test1">
 <input type="color" value="#ffffff" id="test2">
 
-<!--
+<!-- yin yang -->
 <svg width="256" height="256" viewBox="0 0 256 256">
   <path
     d="
@@ -83,11 +83,43 @@ document.getElementById('sname').innerHTML = sname;
     stroke="black"
     stroke-width="2"
   />
+
+<circle cx="65.5" cy="128" r="31.25" stroke="black" stroke-width="2" fill="white" id="topC"/>
+
+<circle cx="190.5" cy="128" r="31.25" stroke="black" stroke-width="2" fill="white" id="botC"/>
 </svg>
--->
-  
+
+<!-- blank circle --> 
 <svg width="256" height="256" viewBox="0 0 256 256">
     <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="white" id="topC"/>
+</svg>
+
+<!-- blank circle --> 
+<svg width="256" height="256" viewBox="0 0 256 256">
+  <path
+    d="
+      M 253 128
+      A 125 125 0 0 1 3 128
+      A 62.5 62.5 0 0 1 128 128
+      A 62.5 62.5 1 0 0 253 128
+      "
+    fill= "white"
+    id="topC"
+    stroke="black"
+    stroke-width="2"
+  />
+   <path
+    d="
+      M 3 128
+      A 125 125 0 0 1 253 128
+      A 62.5 62.5 0 0 1 128 128
+      A 62.5 62.5 1 0 0 3 128
+      "
+    fill= "white"
+    id="botC"
+    stroke="black"
+    stroke-width="2"
+  />
 </svg>
 
 <script>
