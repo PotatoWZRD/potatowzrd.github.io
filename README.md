@@ -107,7 +107,7 @@ document.getElementById('sname').innerHTML = sname;
       A 1 1 0 0 0 19.74682 190.5
       A 1 1 0 0 1 100.93671 143.625
       "
-    fill= "orange"
+    fill= "pink"
     id="m1"
     stroke="none"
     stroke-width="2"
@@ -120,7 +120,7 @@ document.getElementById('sname').innerHTML = sname;
       A 1 1 0 0 1 19.74682 190.5
       A 1 1 0 0 1 100.93671 143.625
       "
-    fill= "pink"
+    fill= "orange"
     id="m2"
     stroke="none"
     stroke-width="2"
