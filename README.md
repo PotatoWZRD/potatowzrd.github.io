@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00028');</script>
+<script>console.log('00029');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -60,7 +60,7 @@ document.getElementById('sname').innerHTML = sname;
 
 <!-- blank circle --> 
 <svg width="256" height="256" viewBox="0 0 256 256">
-    <circle cx="128" cy="128" r="125" stroke="none" stroke-width="2" fill="white" id="marble"/>
+    <circle cx="128" cy="128" r="125" stroke="none" stroke-width="0" fill="white" id="marble"/>
     <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
 
@@ -76,7 +76,7 @@ document.getElementById('sname').innerHTML = sname;
     fill= "black"
     id="yy1"
     stroke="none"
-    stroke-width="2"
+    stroke-width="0"
   />
    <path
     d="
@@ -88,7 +88,7 @@ document.getElementById('sname').innerHTML = sname;
     fill= "white"
     id="yy2"
     stroke="none"
-    stroke-width="2"
+    stroke-width="0"
   />
 
 <circle cx="128" cy="190.5" r="25" stroke="none" stroke-width="2" fill="black" id="yy3"/>
@@ -101,6 +101,19 @@ document.getElementById('sname').innerHTML = sname;
 <svg width="256" height="256" viewBox="0 0 256 256">
   <path
     d="
+      M 155.06329 112.375
+      A 1 1 0 0 0 19.74682 190.5
+      A 1 1 0 0 1 236.25318 65.5
+      A 1 1 0 0 1 155.06329 112.375
+      "
+    fill= "purple"
+    id="m1"
+    stroke="none"
+    stroke-width="0"
+  />
+    
+  <path
+    d="
       M 100.93671 143.625
       A 1 1 0 0 0 236.25318 65.5
       A 1 1 0 0 1 155.06329 112.375
@@ -108,9 +121,9 @@ document.getElementById('sname').innerHTML = sname;
       A 1 1 0 0 1 100.93671 143.625
       "
     fill= "pink"
-    id="m1"
+    id="m2"
     stroke="none"
-    stroke-width="2"
+    stroke-width="0"
   />
   
   <path
@@ -121,23 +134,11 @@ document.getElementById('sname').innerHTML = sname;
       A 1 1 0 0 1 100.93671 143.625
       "
     fill= "orange"
-    id="m2"
-    stroke="none"
-    stroke-width="2"
-  />
-  
-  <path
-    d="
-      M 155.06329 112.375
-      A 1 1 0 0 0 19.74682 190.5
-      A 1 1 0 0 1 236.25318 65.5
-      A 1 1 0 0 1 155.06329 112.375
-      "
-    fill= "purple"
     id="m3"
     stroke="none"
-    stroke-width="2"
+    stroke-width="0"
   />
+  
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
 
