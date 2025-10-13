@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00021');</script>
+<script>console.log('00022');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -68,10 +68,10 @@ document.getElementById('sname').innerHTML = sname;
 <svg width="256" height="256" viewBox="0 0 256 256">
   <path
     d="
-      M 253 128
-      A 125 125 0 0 1 3 128
+      M 128 253
+      A 125 125 0 0 1 128 3
       A 62.5 62.5 0 0 1 128 128
-      A 62.5 62.5 1 0 0 253 128
+      A 62.5 62.5 1 0 0 128 253
       "
     fill= "white"
     id="yy1"
@@ -80,10 +80,10 @@ document.getElementById('sname').innerHTML = sname;
   />
    <path
     d="
-      M 3 128
-      A 125 125 0 0 1 253 128
+      M 128 3
+      A 125 125 0 0 1 128 253
       A 62.5 62.5 0 0 1 128 128
-      A 62.5 62.5 1 0 0 3 128
+      A 62.5 62.5 1 0 0 128 3
       "
     fill= "white"
     id="yy2"
