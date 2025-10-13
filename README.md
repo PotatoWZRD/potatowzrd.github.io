@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00018');</script>
+<script>console.log('00019');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -54,8 +54,14 @@ document.getElementById('sname').innerHTML = sname;
 <span id="fname"></span>
 <span id="sname"></span>
 
-<input type="color" value="#ffffff" id="test1">
-<input type="color" value="#ffffff" id="test2">
+<input type="color" value="#ffffff" id="color1">
+<input type="color" value="#ffffff" id="color2">
+<input type="color" value="#ffffff" id="color3">
+
+<!-- blank circle --> 
+<svg width="256" height="256" viewBox="0 0 256 256">
+    <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="white" id="marble"/>
+</svg>
 
 <!-- yin yang -->
 <svg width="256" height="256" viewBox="0 0 256 256">
@@ -67,7 +73,7 @@ document.getElementById('sname').innerHTML = sname;
       A 62.5 62.5 1 0 0 253 128
       "
     fill= "white"
-    id="topC"
+    id="yy1"
     stroke="black"
     stroke-width="2"
   />
@@ -79,19 +85,14 @@ document.getElementById('sname').innerHTML = sname;
       A 62.5 62.5 1 0 0 3 128
       "
     fill= "white"
-    id="botC"
+    id="yy2"
     stroke="black"
     stroke-width="2"
   />
 
-<circle cx="65.5" cy="128" r="31.25" stroke="black" stroke-width="2" fill="white" id="topC"/>
+<circle cx="65.5" cy="128" r="15.625" stroke="black" stroke-width="2" fill="white" id="yy3"/>
 
-<circle cx="190.5" cy="128" r="31.25" stroke="black" stroke-width="2" fill="white" id="botC"/>
-</svg>
-
-<!-- blank circle --> 
-<svg width="256" height="256" viewBox="0 0 256 256">
-    <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="white" id="topC"/>
+<circle cx="190.5" cy="128" r="15.625" stroke="black" stroke-width="2" fill="white" id="yy4"/>
 </svg>
 
 <!-- blank circle --> 
@@ -123,14 +124,27 @@ document.getElementById('sname').innerHTML = sname;
 </svg>
 
 <script>
-let des1 = document.getElementById('topC')
-let col1 = document.getElementById('test1')
+let col1 = document.getElementById('color1')
+let desA1 = document.getElementById('marble')
+let desA2 = document.getElementById('yy1')
+let desA3 = document.getElementById('yy3')
     col1.addEventListener('input', (event) => {
-        des1.style.fill = event.target.value;
+        desA1.style.fill = event.target.value;
+        desA2.style.fill = event.target.value;
+        desA3.style.fill = event.target.value;
     })
-let des2 = document.getElementById('botC');
-let col2 = document.getElementById('test2');
+let col2 = document.getElementById('color2');
+let desB1 = document.getElementById('botC');
+let desB2 = document.getElementById('yy2')
+let desB3 = document.getElementById('yy4')
     col2.addEventListener('input', (event) => {
-        des2.style.fill = event.target.value;
+        desB1.style.fill = event.target.value;
+        desB2.style.fill = event.target.value;
+        desB3.style.fill = event.target.value;
+    })
+let col3 = document.getElementById('color3');
+let desC2 = document.getElementById('botC');
+    col3.addEventListener('input', (event) => {
+        desC1.style.fill = event.target.value;
     })
 </script>  
