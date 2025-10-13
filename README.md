@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00031');</script>
+<script>console.log('00032');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -183,6 +183,35 @@ document.getElementById('sname').innerHTML = sname;
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
 
+<!-- star --> 
+<svg width="256" height="256" viewBox="0 0 256 256">
+
+<circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="purple" id="s1"/>
+
+<path
+    d="
+        M 128 3
+        L 156.06425 87.37288
+        L 246.88206 87.37288
+        L 173.40891 142.75425
+        L 201.47316 228.12712
+        L 128 175.74575
+        L 54.52684 228.12712
+        L 82.59109 142.75425
+        L 9.11794 87.37288
+        L 99.93575 87.37288
+        L 128 3
+        "
+        
+fill="yellow"
+id="s2"
+stroke="yellow"
+stroke-width="0.5"
+/>
+
+<circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
+</svg>
+
 <!-- blank circle --> 
 <svg width="256" height="256" viewBox="0 0 256 256">
   <path
@@ -219,18 +248,21 @@ let desA2 = document.getElementById('yy1')
 let desA3 = document.getElementById('yy3')
 let desA4 = document.getElementById('m1')
 let desA5 = document.getElementById('h1')
+let desA6 = document.getElementById('s1')
     col1.addEventListener('input', (event) => {
         desA1.style.fill = event.target.value;
         desA2.style.fill = event.target.value;
         desA3.style.fill = event.target.value;
         desA4.style.fill = event.target.value;
         desA5.style.fill = event.target.value;
+        desA6.style.fill = event.target.value;
 
         desA1.style.stroke = event.target.value;
         desA2.style.stroke = event.target.value;
         desA3.style.stroke = event.target.value;
         desA4.style.stroke = event.target.value;
         desA5.style.stroke = event.target.value;
+        desA6.style.stroke = event.target.value;
     })
 let col2 = document.getElementById('color2');
 let desB1 = document.getElementById('botC');
@@ -240,6 +272,7 @@ let desB4 = document.getElementById('m2')
 let desB5 = document.getElementById('h2')
 let desB6 = document.getElementById('h3')
 let desB7 = document.getElementById('h4')
+let desB8 = document.getElementById('s2')
     col2.addEventListener('input', (event) => {
         desB1.style.fill = event.target.value;
         desB2.style.fill = event.target.value;
@@ -248,6 +281,7 @@ let desB7 = document.getElementById('h4')
         desB5.style.fill = event.target.value;
         desB6.style.fill = event.target.value;
         desB7.style.fill = event.target.value;
+        desB8.style.fill = event.target.value;
         
         desB1.style.stroke = event.target.value;
         desB2.style.stroke = event.target.value;
@@ -256,6 +290,7 @@ let desB7 = document.getElementById('h4')
         desB5.style.stroke = event.target.value;
         desB6.style.stroke = event.target.value;
         desB7.style.stroke = event.target.value;
+        desB8.style.stroke = event.target.value;
     })
 let col3 = document.getElementById('color3');
 let desC1 = document.getElementById('m3');
