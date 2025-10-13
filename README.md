@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00024');</script>
+<script>console.log('00025');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -91,8 +91,8 @@ document.getElementById('sname').innerHTML = sname;
     stroke-width="2"
   />
 
-<circle cx="190.5" cy="128" r="25" stroke="none" stroke-width="2" fill="black" id="yy3"/>
-<circle cx="65.5" cy="128" r="25" stroke="none" stroke-width="2" fill="white" id="yy4"/>
+<circle cx="128" cy="190.5" r="25" stroke="none" stroke-width="2" fill="black" id="yy3"/>
+<circle cx="128" cy="65.5" r="25" stroke="none" stroke-width="2" fill="white" id="yy4"/>
 
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
