@@ -57,8 +57,8 @@ document.getElementById('sname').innerHTML = sname;
 <input type="color" value="#ffffff" id="test1">
 <input type="color" value="#ffffff" id="test2">
 
+<!--
 <svg width="256" height="256" viewBox="0 0 256 256">
-
   <path
     d="
       M 253 128
@@ -83,6 +83,12 @@ document.getElementById('sname').innerHTML = sname;
     stroke="black"
     stroke-width="2"
   />
+</svg>
+-->
+  
+<svg width="256" height="256" viewBox="0 0 256 256">
+    <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="white" id="topC"/>
+</svg>
 
 <script>
 let des1 = document.getElementById('topC')
@@ -96,4 +102,3 @@ let col2 = document.getElementById('test2');
         des2.style.fill = event.target.value;
     })
 </script>  
-</svg>
