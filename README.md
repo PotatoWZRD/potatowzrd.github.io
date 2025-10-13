@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00025');</script>
+<script>console.log('00026');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -97,6 +97,50 @@ document.getElementById('sname').innerHTML = sname;
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
 
+<!-- classic swirl marble -->
+<svg width="256" height="256" viewBox="0 0 256 256">
+  <path
+    d="
+      M 100.93671 143.625
+      A 1 1 0 0 0 236.25318 65.5
+      A 1 1 0 0 1 155.06329 112.375
+      A 1 1 0 0 0 19.74682 190.5
+      A 1 1 0 0 1 100.93671 143.625
+      "
+    fill= "#ff0000"
+    id="m1"
+    stroke="none"
+    stroke-width="2"
+  />
+  
+  <path
+    d="
+      M 100.93671 143.625
+      A 1 1 0 0 0 236.25318 65.5
+      A 1 1 0 0 1 19.74682 190.5
+      A 1 1 0 0 1 100.93671 143.625
+      "
+    fill= "blue"
+    id="m2"
+    stroke="none"
+    stroke-width="2"
+  />
+  
+  <path
+    d="
+      M 155.06329 112.375
+      A 1 1 0 0 0 19.74682 190.5
+      A 1 1 0 0 1 236.25318 65.5
+      A 1 1 0 0 1 155.06329 112.375
+      "
+    fill= "green"
+    id="m3"
+    stroke="none"
+    stroke-width="2"
+  />
+<circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
+</svg>
+
 <!-- blank circle --> 
 <svg width="256" height="256" viewBox="0 0 256 256">
   <path
@@ -131,6 +175,7 @@ let col1 = document.getElementById('color1')
 let desA1 = document.getElementById('marble')
 let desA2 = document.getElementById('yy1')
 let desA3 = document.getElementById('yy3')
+let desA4 = document.getElementById('m1')
     col1.addEventListener('input', (event) => {
         desA1.style.fill = event.target.value;
         desA2.style.fill = event.target.value;
@@ -140,13 +185,14 @@ let col2 = document.getElementById('color2');
 let desB1 = document.getElementById('botC');
 let desB2 = document.getElementById('yy2')
 let desB3 = document.getElementById('yy4')
+let desB4 = document.getElementById('m2')
     col2.addEventListener('input', (event) => {
         desB1.style.fill = event.target.value;
         desB2.style.fill = event.target.value;
         desB3.style.fill = event.target.value;
     })
 let col3 = document.getElementById('color3');
-let desC2 = document.getElementById('botC');
+let desC1 = document.getElementById('m3');
     col3.addEventListener('input', (event) => {
         desC1.style.fill = event.target.value;
     })
