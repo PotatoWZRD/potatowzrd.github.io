@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00020');</script>
+<script>console.log('00021');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -60,7 +60,8 @@ document.getElementById('sname').innerHTML = sname;
 
 <!-- blank circle --> 
 <svg width="256" height="256" viewBox="0 0 256 256">
-    <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="white" id="marble"/>
+    <circle cx="128" cy="128" r="125" stroke="none" stroke-width="2" fill="white" id="marble"/>
+    <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
 
 <!-- yin yang -->
@@ -74,7 +75,7 @@ document.getElementById('sname').innerHTML = sname;
       "
     fill= "white"
     id="yy1"
-    stroke="black"
+    stroke="none"
     stroke-width="2"
   />
    <path
@@ -86,13 +87,14 @@ document.getElementById('sname').innerHTML = sname;
       "
     fill= "white"
     id="yy2"
-    stroke="black"
+    stroke="none"
     stroke-width="2"
   />
 
-<circle cx="65.5" cy="128" r="15.625" stroke="black" stroke-width="2" fill="white" id="yy4"/>
+<circle cx="190.5" cy="128" r="25" stroke="none" stroke-width="2" fill="white" id="yy3"/>
+<circle cx="65.5" cy="128" r="25" stroke="none" stroke-width="2" fill="white" id="yy4"/>
 
-<circle cx="190.5" cy="128" r="15.625" stroke="black" stroke-width="2" fill="white" id="yy3"/>
+<circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
 
 <!-- blank circle --> 
@@ -121,6 +123,7 @@ document.getElementById('sname').innerHTML = sname;
     stroke="black"
     stroke-width="2"
   />
+<circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
 
 <script>
