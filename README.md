@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00032');</script>
+<script>console.log('00033');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -234,10 +234,55 @@ stroke-width="0.5"
       A 10 1 0 0 0 159.25 249.03073
       "
     fill= "black"
-    id="topC"
+    id="c2"
     stroke="black"
     stroke-width="0.5"
   />
+<circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
+</svg>
+
+<!-- sun&moon --> 
+<svg width="256" height="256" viewBox="0 0 256 256">
+
+<circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="white" id="p1"/>
+
+  <path
+    d="
+      M 174.875 243.8781
+      Q 118 222 100.71927 159.25
+      L 159.25 128
+      L 100.71929 96.75
+      Q 118 34 174.875 12.1219
+      C 280 60 280 200 174.875 243.8781
+      "
+    fill= "grey"
+    id="p2"
+    stroke="grey"
+    stroke-width="0.5"
+  />
+  <path
+    d="
+      M 174.875 96.75
+      A 0.5 1 0 0 1 174.875 49.875
+      A 0.5 1 0 0 1 174.875 96.75
+      "
+    fill= "black"
+    id="p3"
+    stroke="black"
+    stroke-width="0.5"
+  />
+  <path
+    d="
+      M 65.5 96.75
+      A 0.5 1 0 0 1 65.5 49.875
+      A 0.5 1 0 0 1 65.5 96.75
+      "
+    fill= "black"
+    id="p4"
+    stroke="black"
+    stroke-width="0.5"
+  />
+  
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="c2"/>
 </svg>
 
@@ -279,6 +324,7 @@ let desA4 = document.getElementById('m1')
 let desA5 = document.getElementById('h1')
 let desA6 = document.getElementById('s1')
 let desA7 = document.getElementById('c1')
+let desA8 = document.getElementById('p1')
     col1.addEventListener('input', (event) => {
         desA1.style.fill = event.target.value;
         desA2.style.fill = event.target.value;
@@ -287,6 +333,7 @@ let desA7 = document.getElementById('c1')
         desA5.style.fill = event.target.value;
         desA6.style.fill = event.target.value;
         desA7.style.fill = event.target.value;
+        desA8.style.fill = event.target.value;
 
         desA1.style.stroke = event.target.value;
         desA2.style.stroke = event.target.value;
@@ -295,6 +342,7 @@ let desA7 = document.getElementById('c1')
         desA5.style.stroke = event.target.value;
         desA6.style.stroke = event.target.value;
         desA7.style.stroke = event.target.value;
+        desA8.style.stroke = event.target.value;
     })
 let col2 = document.getElementById('color2');
 let desB1 = document.getElementById('botC');
@@ -306,6 +354,7 @@ let desB6 = document.getElementById('h3')
 let desB7 = document.getElementById('h4')
 let desB8 = document.getElementById('s2')
 let desB9 = document.getElementById('c2')
+let desB10 = document.getElementById('p2')
     col2.addEventListener('input', (event) => {
         desB1.style.fill = event.target.value;
         desB2.style.fill = event.target.value;
@@ -316,6 +365,7 @@ let desB9 = document.getElementById('c2')
         desB7.style.fill = event.target.value;
         desB8.style.fill = event.target.value;
         desB9.style.fill = event.target.value;
+        desB10.style.fill = event.target.value;
         
         desB1.style.stroke = event.target.value;
         desB2.style.stroke = event.target.value;
@@ -326,12 +376,19 @@ let desB9 = document.getElementById('c2')
         desB7.style.stroke = event.target.value;
         desB8.style.stroke = event.target.value;
         desB9.style.stroke = event.target.value;
+        desB10.style.stroke = event.target.value;
     })
 let col3 = document.getElementById('color3');
 let desC1 = document.getElementById('m3');
+let desC2 = document.getElementById('p3');
+let desC3 = document.getElementById('p4');
     col3.addEventListener('input', (event) => {
         desC1.style.fill = event.target.value;
+        desC2.style.fill = event.target.value;
+        desC3.style.fill = event.target.value;
         
         desC1.style.stroke = event.target.value;
+        desC2.style.stroke = event.target.value;
+        desC3.style.stroke = event.target.value;
     })
 </script>  
