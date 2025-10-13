@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00030');</script>
+<script>console.log('00031');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -142,6 +142,47 @@ document.getElementById('sname').innerHTML = sname;
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
 
+<!-- smile --> 
+<svg width="256" height="256" viewBox="0 0 256 256">
+    
+<circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="yellow" id="h1"/>
+    
+  <path
+    d="
+      M 88.9375 112.375
+      A 0.5 1 0 0 1 88.9375 49.875
+      A 0.5 1 0 0 1 88.9375 112.375
+      "
+    fill= "black"
+    id="h2"
+    stroke="black"
+    stroke-width="0.5"
+  />
+  <path
+    d="
+      M 167.0625 112.375
+      A 0.5 1 0 0 1 167.0625 49.875
+      A 0.5 1 0 0 1 167.0625 112.375
+      "
+    fill= "black"
+    id="h3"
+    stroke="black"
+    stroke-width="0.5"
+  />
+  <path
+    d="
+      M 49.875 143.625
+      A 1 0.35 0 0 0 206.125 143.625
+      A 1 1 0 0 1 49.875 143.625
+      "
+    fill= "black"
+    id="h4"
+    stroke="black"
+    stroke-width="0.5"
+  />
+<circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
+</svg>
+
 <!-- blank circle --> 
 <svg width="256" height="256" viewBox="0 0 256 256">
   <path
@@ -154,7 +195,7 @@ document.getElementById('sname').innerHTML = sname;
     fill= "white"
     id="topC"
     stroke="black"
-    stroke-width="2"
+    stroke-width="0.5"
   />
    <path
     d="
@@ -166,7 +207,7 @@ document.getElementById('sname').innerHTML = sname;
     fill= "white"
     id="botC"
     stroke="black"
-    stroke-width="2"
+    stroke-width="0.5"
   />
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
@@ -177,32 +218,44 @@ let desA1 = document.getElementById('marble')
 let desA2 = document.getElementById('yy1')
 let desA3 = document.getElementById('yy3')
 let desA4 = document.getElementById('m1')
+let desA5 = document.getElementById('h1')
     col1.addEventListener('input', (event) => {
         desA1.style.fill = event.target.value;
         desA2.style.fill = event.target.value;
         desA3.style.fill = event.target.value;
         desA4.style.fill = event.target.value;
+        desA5.style.fill = event.target.value;
 
         desA1.style.stroke = event.target.value;
         desA2.style.stroke = event.target.value;
         desA3.style.stroke = event.target.value;
         desA4.style.stroke = event.target.value;
+        desA5.style.stroke = event.target.value;
     })
 let col2 = document.getElementById('color2');
 let desB1 = document.getElementById('botC');
 let desB2 = document.getElementById('yy2')
 let desB3 = document.getElementById('yy4')
 let desB4 = document.getElementById('m2')
+let desB5 = document.getElementById('h2')
+let desB6 = document.getElementById('h3')
+let desB7 = document.getElementById('h4')
     col2.addEventListener('input', (event) => {
         desB1.style.fill = event.target.value;
         desB2.style.fill = event.target.value;
         desB3.style.fill = event.target.value;
         desB4.style.fill = event.target.value;
+        desB5.style.fill = event.target.value;
+        desB6.style.fill = event.target.value;
+        desB7.style.fill = event.target.value;
         
         desB1.style.stroke = event.target.value;
         desB2.style.stroke = event.target.value;
         desB3.style.stroke = event.target.value;
         desB4.style.stroke = event.target.value;
+        desB5.style.stroke = event.target.value;
+        desB6.style.stroke = event.target.value;
+        desB7.style.stroke = event.target.value;
     })
 let col3 = document.getElementById('color3');
 let desC1 = document.getElementById('m3');
