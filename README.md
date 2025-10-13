@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00026');</script>
+<script>console.log('00027');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -107,7 +107,7 @@ document.getElementById('sname').innerHTML = sname;
       A 1 1 0 0 0 19.74682 190.5
       A 1 1 0 0 1 100.93671 143.625
       "
-    fill= "#ff0000"
+    fill= "orange"
     id="m1"
     stroke="none"
     stroke-width="2"
@@ -120,7 +120,7 @@ document.getElementById('sname').innerHTML = sname;
       A 1 1 0 0 1 19.74682 190.5
       A 1 1 0 0 1 100.93671 143.625
       "
-    fill= "blue"
+    fill= "pink"
     id="m2"
     stroke="none"
     stroke-width="2"
@@ -133,7 +133,7 @@ document.getElementById('sname').innerHTML = sname;
       A 1 1 0 0 1 236.25318 65.5
       A 1 1 0 0 1 155.06329 112.375
       "
-    fill= "green"
+    fill= "purple"
     id="m3"
     stroke="none"
     stroke-width="2"
