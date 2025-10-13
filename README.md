@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00027');</script>
+<script>console.log('00028');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -180,6 +180,7 @@ let desA4 = document.getElementById('m1')
         desA1.style.fill = event.target.value;
         desA2.style.fill = event.target.value;
         desA3.style.fill = event.target.value;
+        desA4.style.fill = event.target.value;
     })
 let col2 = document.getElementById('color2');
 let desB1 = document.getElementById('botC');
@@ -190,6 +191,7 @@ let desB4 = document.getElementById('m2')
         desB1.style.fill = event.target.value;
         desB2.style.fill = event.target.value;
         desB3.style.fill = event.target.value;
+        desB4.style.fill = event.target.value;
     })
 let col3 = document.getElementById('color3');
 let desC1 = document.getElementById('m3');
