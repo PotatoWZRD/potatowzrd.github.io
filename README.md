@@ -106,7 +106,7 @@ document.getElementById('sname').innerHTML = sname;
       A 1 1 0 0 1 236.25318 65.5
       A 1 1 0 0 1 155.06329 112.375
       "
-    fill= "purple"
+    fill= "white"
     id="m1"
     stroke="none"
     stroke-width="0.5"
@@ -120,7 +120,7 @@ document.getElementById('sname').innerHTML = sname;
       A 1 1 0 0 0 19.74682 190.5
       A 1 1 0 0 1 100.93671 143.625
       "
-    fill= "pink"
+    fill= "grey"
     id="m2"
     stroke="none"
     stroke-width="0.5"
@@ -133,7 +133,7 @@ document.getElementById('sname').innerHTML = sname;
       A 1 1 0 0 1 19.74682 190.5
       A 1 1 0 0 1 100.93671 143.625
       "
-    fill= "orange"
+    fill= "black"
     id="m3"
     stroke="none"
     stroke-width="0.5"
@@ -145,7 +145,7 @@ document.getElementById('sname').innerHTML = sname;
 <!-- smile --> 
 <svg width="256" height="256" viewBox="0 0 256 256">
     
-<circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="yellow" id="h1"/>
+<circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="white" id="h1"/>
     
   <path
     d="
@@ -186,30 +186,59 @@ document.getElementById('sname').innerHTML = sname;
 <!-- star --> 
 <svg width="256" height="256" viewBox="0 0 256 256">
 
-<circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="purple" id="s1"/>
+<circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="black" id="s1"/>
 
 <path
     d="
-        M 128 3
-        L 156.06425 87.37288
-        L 246.88206 87.37288
-        L 173.40891 142.75425
-        L 201.47316 228.12712
-        L 128 175.74575
-        L 54.52684 228.12712
-        L 82.59109 142.75425
-        L 9.11794 87.37288
-        L 99.93575 87.37288
-        L 128 3
-        "
+    M 128 3
+    L 156.06425 87.37288
+    L 246.88206 87.37288
+    L 173.40891 142.75425
+    L 201.47316 228.12712
+    L 128 175.74575
+    L 54.52684 228.12712
+    L 82.59109 142.75425
+    L 9.11794 87.37288
+    L 99.93575 87.37288
+    L 128 3
+    "
         
-fill="yellow"
+fill="white"
 id="s2"
-stroke="yellow"
+stroke="white"
 stroke-width="0.5"
 />
 
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
+</svg>
+
+<!-- cross --> 
+<svg width="256" height="256" viewBox="0 0 256 256">
+
+<circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="white" id="c1"/>
+
+  <path
+    d="
+      M 159.25 249.03073
+      L 159.25 159.25
+      L 249.03073 159.25
+      A 1 10 0 0 0 249.03073 96.75
+      L 159.25 96.75
+      L 159.25 6.96927
+      A 10 1 0 0 0 96.75 6.96927
+      L 96.75 96.75
+      L 6.96927 96.75
+      A 1 10 0 0 0 6.96927 159.25
+      L 96.75 159.25
+      L 96.75 249.03073
+      A 10 1 0 0 0 159.25 249.03073
+      "
+    fill= "black"
+    id="topC"
+    stroke="black"
+    stroke-width="0.5"
+  />
+<circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="c2"/>
 </svg>
 
 <!-- blank circle --> 
@@ -249,6 +278,7 @@ let desA3 = document.getElementById('yy3')
 let desA4 = document.getElementById('m1')
 let desA5 = document.getElementById('h1')
 let desA6 = document.getElementById('s1')
+let desA7 = document.getElementById('c1')
     col1.addEventListener('input', (event) => {
         desA1.style.fill = event.target.value;
         desA2.style.fill = event.target.value;
@@ -256,6 +286,7 @@ let desA6 = document.getElementById('s1')
         desA4.style.fill = event.target.value;
         desA5.style.fill = event.target.value;
         desA6.style.fill = event.target.value;
+        desA7.style.fill = event.target.value;
 
         desA1.style.stroke = event.target.value;
         desA2.style.stroke = event.target.value;
@@ -263,6 +294,7 @@ let desA6 = document.getElementById('s1')
         desA4.style.stroke = event.target.value;
         desA5.style.stroke = event.target.value;
         desA6.style.stroke = event.target.value;
+        desA7.style.stroke = event.target.value;
     })
 let col2 = document.getElementById('color2');
 let desB1 = document.getElementById('botC');
@@ -273,6 +305,7 @@ let desB5 = document.getElementById('h2')
 let desB6 = document.getElementById('h3')
 let desB7 = document.getElementById('h4')
 let desB8 = document.getElementById('s2')
+let desB9 = document.getElementById('c2')
     col2.addEventListener('input', (event) => {
         desB1.style.fill = event.target.value;
         desB2.style.fill = event.target.value;
@@ -282,6 +315,7 @@ let desB8 = document.getElementById('s2')
         desB6.style.fill = event.target.value;
         desB7.style.fill = event.target.value;
         desB8.style.fill = event.target.value;
+        desB9.style.fill = event.target.value;
         
         desB1.style.stroke = event.target.value;
         desB2.style.stroke = event.target.value;
@@ -291,6 +325,7 @@ let desB8 = document.getElementById('s2')
         desB6.style.stroke = event.target.value;
         desB7.style.stroke = event.target.value;
         desB8.style.stroke = event.target.value;
+        desB9.style.stroke = event.target.value;
     })
 let col3 = document.getElementById('color3');
 let desC1 = document.getElementById('m3');
