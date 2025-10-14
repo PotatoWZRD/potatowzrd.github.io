@@ -1,5 +1,18 @@
 # potatowzrd.github.io
 
+<style>
+    button {
+  all: unset;
+  display: inline-block;
+  cursor: pointer;
+  line-height: 0;
+}
+
+button svg {
+  display: block;
+}
+</style>
+
 <button type="button" onclick="clicked()">Click the button, join!</button>
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
@@ -48,7 +61,6 @@ function nameGen()
     var sname = sNames[Math.floor(Math.random() * sNames.length)];
     document.getElementById('sname').innerHTML = sname;
 }
-
 </script>
 
 <span id="fname"></span>
