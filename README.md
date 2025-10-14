@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00033');</script>
+<script>console.log('00034');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -286,32 +286,10 @@ stroke-width="0.5"
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="c2"/>
 </svg>
 
-<!-- blank circle --> 
+<!-- donut --> 
 <svg width="256" height="256" viewBox="0 0 256 256">
-  <path
-    d="
-      M 253 128
-      A 125 125 0 0 1 3 128
-      A 62.5 62.5 0 0 1 128 128
-      A 62.5 62.5 1 0 0 253 128
-      "
-    fill= "white"
-    id="topC"
-    stroke="black"
-    stroke-width="0.5"
-  />
-   <path
-    d="
-      M 3 128
-      A 125 125 0 0 1 253 128
-      A 62.5 62.5 0 0 1 128 128
-      A 62.5 62.5 1 0 0 3 128
-      "
-    fill= "white"
-    id="botC"
-    stroke="black"
-    stroke-width="0.5"
-  />
+<circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="none" id="d1"/>
+<circle cx="128" cy="128" r="25" stroke="none" stroke-width="0.5" fill="transparent" id="hole"/>
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
 
@@ -325,6 +303,7 @@ let desA5 = document.getElementById('h1')
 let desA6 = document.getElementById('s1')
 let desA7 = document.getElementById('c1')
 let desA8 = document.getElementById('p1')
+let desA9 = document.getElementById('d1')
     col1.addEventListener('input', (event) => {
         desA1.style.fill = event.target.value;
         desA2.style.fill = event.target.value;
@@ -334,6 +313,7 @@ let desA8 = document.getElementById('p1')
         desA6.style.fill = event.target.value;
         desA7.style.fill = event.target.value;
         desA8.style.fill = event.target.value;
+        desA9.style.fill = event.target.value;
 
         desA1.style.stroke = event.target.value;
         desA2.style.stroke = event.target.value;
@@ -343,6 +323,7 @@ let desA8 = document.getElementById('p1')
         desA6.style.stroke = event.target.value;
         desA7.style.stroke = event.target.value;
         desA8.style.stroke = event.target.value;
+        desA9.style.stroke = event.target.value;
     })
 let col2 = document.getElementById('color2');
 let desB1 = document.getElementById('botC');
