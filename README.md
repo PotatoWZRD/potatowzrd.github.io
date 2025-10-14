@@ -288,7 +288,7 @@ stroke-width="0.5"
 <!-- donut --> 
 <svg width="256" height="256" viewBox="0 0 256 256">
     <circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="black" id="d1"/>
-    <circle cx="128" cy="128" r="50" stroke="none" stroke-width="0.5" fill="white" id="hole"/>
+    <circle cx="128" cy="128" r="50" stroke="black" stroke-width="2" fill="white" id="hole"/>
     <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
 
@@ -345,15 +345,15 @@ let desB10 = document.getElementById('p2');
         desB9.style.fill = event.target.value;
         desB10.style.fill = event.target.value;
         
-        desB2.style.fill = event.target.value;
-        desB3.style.fill = event.target.value;
-        desB4.style.fill = event.target.value;
-        desB5.style.fill = event.target.value;
-        desB6.style.fill = event.target.value;
-        desB7.style.fill = event.target.value;
-        desB8.style.fill = event.target.value;
-        desB9.style.fill = event.target.value;
-        desB10.style.fill = event.target.value;
+        desB2.style.stroke = event.target.value;
+        desB3.style.stroke = event.target.value;
+        desB4.style.stroke = event.target.value;
+        desB5.style.stroke = event.target.value;
+        desB6.style.stroke = event.target.value;
+        desB7.style.stroke = event.target.value;
+        desB8.style.stroke = event.target.value;
+        desB9.style.stroke = event.target.value;
+        desB10.style.stroke = event.target.value;
     })
 let col3 = document.getElementById('color3');
 let desC1 = document.getElementById('m3');
