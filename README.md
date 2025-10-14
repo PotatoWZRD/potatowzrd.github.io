@@ -292,6 +292,89 @@ stroke-width="0.5"
     <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
 
+<!-- mushroom --> 
+<svg width="256" height="256" viewBox="0 0 256 256">
+
+<circle cx="128" cy="128" r="125" stroke="black" stroke-width="0.5" fill="black" id="j1"/>
+
+  <path
+    d="
+      M 7.1 95.5
+      C 27.6 103.5 18.6 85.6 35.8 84.5
+      C 57.2 83.2 48 103.3 68.8 96.6
+      C 92.9 81.2 56.5 66.5 83 44.4
+      C 92 36 111.9 39.7 118.6 28.3
+      C 125 16 126 3 114 3.78467
+      C 63 6 15 56 7.1 95.5
+      "
+    fill= "white"
+    id="j2"
+    stroke="white"
+    stroke-width="0.5"
+  />
+  
+  <path
+    d="
+      M 3.69 141.11749
+      C 2.3 136.2 9.4 148.7 20 146
+      C 31.8 144.5 40.3 127.9 55.3 136.5
+      C 69.8 147 55.3 161.7 68 180
+      C 75 194.6 97 188 100 207
+      C 100 220 94 239 83 244.61904
+      C 40 230 3 177 3.69 141.11749
+      "
+    fill= "white"
+    id="j3"
+    stroke="white"
+    stroke-width="0.5"
+  />
+  
+  <path
+    d="
+      M 170 245.73275 
+      Q 182 182 235 192.62198
+      Q 206 235 170 245.73275
+      "
+    fill= "white"
+    id="j4"
+    stroke="white"
+    stroke-width="0.5"
+  />
+  
+  <path
+    d="
+      M 118 148
+      C 93.7 128 116.6 124 127 120
+      C 147.5 108.5 133 94.5 146 89
+      C 175.7 83.4 153 104.7 180 125
+      C 192.5 136 204.5 136.4 200 148
+      C 188 171.2 171.4 149.8 155 150
+      C 133 158 133 155 118 148
+      "
+    fill= "white"
+    id="j5"
+    stroke="white"
+    stroke-width="0.5"
+  />
+  
+  <path
+    d="
+      M 220 92
+      C 202 81 215 71 201 53
+      C 193 39 165 41 163 27
+      Q 160 16 171 10.62879
+      C 203 18 243 65 245 84
+      Q 242.4 96.1 220 92
+      "
+    fill= "white"
+    id="j6"
+    stroke="white"
+    stroke-width="0.5"
+  />
+  
+<circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
+</svg>
+
 <script>
 let col1 = document.getElementById('color1');
 let desA1 = document.getElementById('marble');
@@ -303,6 +386,7 @@ let desA6 = document.getElementById('s1');
 let desA7 = document.getElementById('c1');
 let desA8 = document.getElementById('p1');
 let desA9 = document.getElementById('d1');
+let desA10 = document.getElementById('j1');
     col1.addEventListener('input', (event) => {
         desA1.style.fill = event.target.value;
         desA2.style.fill = event.target.value;
@@ -313,6 +397,7 @@ let desA9 = document.getElementById('d1');
         desA7.style.fill = event.target.value;
         desA8.style.fill = event.target.value;
         desA9.style.fill = event.target.value;
+        desA10.style.fill = event.target.value;
 
         desA1.style.stroke = event.target.value;
         desA2.style.stroke = event.target.value;
@@ -323,8 +408,10 @@ let desA9 = document.getElementById('d1');
         desA7.style.stroke = event.target.value;
         desA8.style.stroke = event.target.value;
         desA9.style.stroke = event.target.value;
+        desA10.style.stroke = event.target.value;
     })
 let col2 = document.getElementById('color2');
+let desB1 = document.getElementById('p2');
 let desB2 = document.getElementById('yy2');
 let desB3 = document.getElementById('yy4');
 let desB4 = document.getElementById('m2');
@@ -333,8 +420,13 @@ let desB6 = document.getElementById('h3');
 let desB7 = document.getElementById('h4');
 let desB8 = document.getElementById('s2');
 let desB9 = document.getElementById('c2');
-let desB10 = document.getElementById('p2');
+let desB10 = document.getElementById('j2');
+let desB11 = document.getElementById('j3');
+let desB12 = document.getElementById('j4');
+let desB13 = document.getElementById('j5');
+let desB14 = document.getElementById('j6');
     col2.addEventListener('input', (event) => {
+        desB1.style.fill = event.target.value;
         desB2.style.fill = event.target.value;
         desB3.style.fill = event.target.value;
         desB4.style.fill = event.target.value;
@@ -344,7 +436,12 @@ let desB10 = document.getElementById('p2');
         desB8.style.fill = event.target.value;
         desB9.style.fill = event.target.value;
         desB10.style.fill = event.target.value;
+        desB11.style.fill = event.target.value;
+        desB12.style.fill = event.target.value;
+        desB13.style.fill = event.target.value;
+        desB14.style.fill = event.target.value;
         
+        desB1.style.stroke = event.target.value;
         desB2.style.stroke = event.target.value;
         desB3.style.stroke = event.target.value;
         desB4.style.stroke = event.target.value;
@@ -354,6 +451,10 @@ let desB10 = document.getElementById('p2');
         desB8.style.stroke = event.target.value;
         desB9.style.stroke = event.target.value;
         desB10.style.stroke = event.target.value;
+        desB11.style.stroke = event.target.value;
+        desB12.style.stroke = event.target.value;
+        desB13.style.stroke = event.target.value;
+        desB14.style.stroke = event.target.value;
     })
 let col3 = document.getElementById('color3');
 let desC1 = document.getElementById('m3');
