@@ -288,8 +288,8 @@ stroke-width="0.5"
 
 <!-- donut --> 
 <svg width="256" height="256" viewBox="0 0 256 256">
-<circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="none" id="d1"/>
-<circle cx="128" cy="128" r="25" stroke="none" stroke-width="0.5" fill="transparent" id="hole"/>
+<circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="black" id="d1"/>
+<circle cx="128" cy="128" r="50" stroke="none" stroke-width="0.5" fill="white" id="hole"/>
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
 
