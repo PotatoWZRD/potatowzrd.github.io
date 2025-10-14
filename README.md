@@ -1,10 +1,10 @@
-#potatowzrd.github.io
+**#potatowzrd.github.io**
 
 <button type="button" onclick="clicked()">Click the button, join!</button>
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00038');</script>
+<script>console.log('00039');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
