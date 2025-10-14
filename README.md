@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00035');</script>
+<script>console.log('00036');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -30,23 +30,23 @@ function clicked2() {
 };
 </script>
 
-<h1>Marble Name Generator</h1>
+<h2>Marble Generator</h2>
 
-<button type="button" onclick="nameGen()">Name!</button>
+<button type="button" onclick="nameGen()">Randomize Name</button>
 
 <script>
 
 function nameGen()
 {
-var fNames = Array("Red", "Orange", "Yellow", "Green", "Blue", "Purple", "Pink", "White", "Black", "Brown", "Gold", "Silver", "Bronze", "Copper", "Platinum", "Glass", "Metal", "Paper", "Plastic", "Wooden", "Hot", "Wet", "Windy", "Stinky", "Electric", "Salty", "Sour", "Sweet", "Savory", "Bitter", "Lavender", "Olive", "Huge", "Tiny", "Average", "Happy", "Sad", "Angry", "Lovely", "Devious", "Fancy", "Cursed", "Special", "Glitchy", "Shiny", "Bouncy", "Heavy", "Light", "Dark", "Coral", "Empty", "Single", "Double", "Triple", "Super", "Lucky", "Retro", "Neon", "Cute", "The", "Slow", "Fast", "Still", "Strong", "Weak", "Summer", "Winter", "Spring", "Fall", "Pretty", "Deadly", "Killer", "Agent", "Doctor", "Clear", "Digital", "Bloody", "Funny", "Rich", "Poor", "Good", "Evil", "Imaginary", "Impossible", "Actual", "Video", "Inch", "Final", "Mozzarella", "Marble", "Spicy", "Radioactive", "Jovial", "Innocent", "Mega", "Jazzy", "Crazy", "Free", "Clover", "Potato", "Squishy");
+    var fNames = Array("Red", "Orange", "Yellow", "Green", "Blue", "Purple", "Pink", "White", "Black", "Brown", "Gold", "Silver", "Bronze", "Copper", "Platinum", "Glass", "Metal", "Paper", "Plastic", "Wooden", "Hot", "Wet", "Windy", "Stinky", "Electric", "Salty", "Sour", "Sweet", "Savory", "Bitter", "Lavender", "Olive", "Huge", "Tiny", "Average", "Happy", "Sad", "Angry", "Lovely", "Devious", "Fancy", "Cursed", "Special", "Glitchy", "Shiny", "Bouncy", "Heavy", "Light", "Dark", "Coral", "Empty", "Single", "Double", "Triple", "Super", "Lucky", "Retro", "Neon", "Cute", "The", "Slow", "Fast", "Still", "Strong", "Weak", "Summer", "Winter", "Spring", "Fall", "Pretty", "Deadly", "Killer", "Agent", "Doctor", "Clear", "Digital", "Bloody", "Funny", "Rich", "Poor", "Good", "Evil", "Imaginary", "Impossible", "Actual", "Video", "Inch", "Final", "Mozzarella", "Marble", "Spicy", "Radioactive", "Jovial", "Innocent", "Mega", "Jazzy", "Crazy", "Free", "Clover", "Potato", "Squishy");
+    
+    var sNames = Array("Red", "Orange", "Yellow", "Green", "Blue", "Purple", "Pink", "White", "Black", "Brown", "Gold", "Silver", "Bronze", "Copper", "Platinum", "Diamond", "Emerald", "Ruby", "Crystal", "Obsidian", "Rice", "Bread", "Cookie", "Cake", "Pasta", "Dog", "Cat", "Snail", "Fox", "Horse", "Bird", "Fish", "Ant", "Lion", "Spider", "Rain", "Tornado", "Tsunami", "Cloud", "Hurricane", "Pirate", "Ninja", "Wizard", "Samurai", "Robot", "Apple", "Banana", "Grape", "Cherry", "Lemon", "Dream", "Moon", "Sun", "Comet", "Sky", "Mushroom", "Flower", "Rock", "Tree", "Seed", "Angel", "Devil", "Unicorn", "Dragon", "Fairy", "Barbeque", "Pickle", "Mustard", "Mayo", "Ketchup", "Vanilla", "Chocolate", "Mint", "Sprinkle", "Stardust", "King", "Queen", "Royal", "Ballad", "Jester", "Honey", "Waffle", "Soup", "Egg", "Sandwich", "Heart", "Bone", "Gamble", "Soul", "Mania", "Nerd", "Comrade", "Trash", "Panic", "Snake", "Bullet", "Butter", "Pizza", "Sock", "Bee", "Seagull");
 
-var fname = fNames[Math.floor(Math.random() * fNames.length)];
-document.getElementById('fname').innerHTML = fname;
+    var fname = fNames[Math.floor(Math.random() * fNames.length)];
+    document.getElementById('fname').innerHTML = fname;
 
-var sNames = Array("Red", "Orange", "Yellow", "Green", "Blue", "Purple", "Pink", "White", "Black", "Brown", "Gold", "Silver", "Bronze", "Copper", "Platinum", "Diamond", "Emerald", "Ruby", "Crystal", "Obsidian", "Rice", "Bread", "Cookie", "Cake", "Pasta", "Dog", "Cat", "Snail", "Fox", "Horse", "Bird", "Fish", "Ant", "Lion", "Spider", "Rain", "Tornado", "Tsunami", "Cloud", "Hurricane", "Pirate", "Ninja", "Wizard", "Samurai", "Robot", "Apple", "Banana", "Grape", "Cherry", "Lemon", "Dream", "Moon", "Sun", "Comet", "Sky", "Mushroom", "Flower", "Rock", "Tree", "Seed", "Angel", "Devil", "Unicorn", "Dragon", "Fairy", "Barbeque", "Pickle", "Mustard", "Mayo", "Ketchup", "Vanilla", "Chocolate", "Mint", "Sprinkle", "Stardust", "King", "Queen", "Royal", "Ballad", "Jester", "Honey", "Waffle", "Soup", "Egg", "Sandwich", "Heart", "Bone", "Gamble", "Soul", "Mania", "Nerd", "Comrade", "Trash", "Panic", "Snake", "Bullet", "Butter", "Pizza", "Sock", "Bee", "Seagull");
-
-var sname = sNames[Math.floor(Math.random() * sNames.length)];
-document.getElementById('sname').innerHTML = sname;
+    var sname = sNames[Math.floor(Math.random() * sNames.length)];
+    document.getElementById('sname').innerHTML = sname;
 }
 
 </script>
@@ -58,14 +58,19 @@ document.getElementById('sname').innerHTML = sname;
 <input type="color" value="#ffffff" id="color2">
 <input type="color" value="#ffffff" id="color3">
 
+<p>Choose Your Template</p>
+
+<button>
 <!-- blank circle --> 
-<svg width="256" height="256" viewBox="0 0 256 256">
+<svg width="128" height="128" viewBox="0 0 256 256">
     <circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="white" id="marble"/>
     <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
+</button>
 
+<button>
 <!-- yin yang -->
-<svg width="256" height="256" viewBox="0 0 256 256">
+<svg width="128" height="128" viewBox="0 0 256 256">
   <path
     d="
       M 128 253
@@ -96,9 +101,11 @@ document.getElementById('sname').innerHTML = sname;
 
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
+</button>
 
+<button>
 <!-- classic swirl marble -->
-<svg width="256" height="256" viewBox="0 0 256 256">
+<svg width="128" height="128" viewBox="0 0 256 256">
   <path
     d="
       M 155.06329 112.375
@@ -141,9 +148,11 @@ document.getElementById('sname').innerHTML = sname;
   
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
+</button>
 
+<button>
 <!-- smile --> 
-<svg width="256" height="256" viewBox="0 0 256 256">
+<svg width="128" height="128" viewBox="0 0 256 256">
     
 <circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="white" id="h1"/>
     
@@ -182,9 +191,11 @@ document.getElementById('sname').innerHTML = sname;
   />
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
+</button>
 
+<button>
 <!-- star --> 
-<svg width="256" height="256" viewBox="0 0 256 256">
+<svg width="128" height="128" viewBox="0 0 256 256">
 
 <circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="black" id="s1"/>
 
@@ -210,9 +221,11 @@ stroke-width="0.5"
 
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
+</button>
 
+<button>
 <!-- cross --> 
-<svg width="256" height="256" viewBox="0 0 256 256">
+<svg width="128" height="128" viewBox="0 0 256 256">
 
 <circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="white" id="c1"/>
 
@@ -239,9 +252,11 @@ stroke-width="0.5"
   />
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
+</button>
 
+<button>
 <!-- sun&moon --> 
-<svg width="256" height="256" viewBox="0 0 256 256">
+<svg width="128" height="128" viewBox="0 0 256 256">
 
 <circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="white" id="p1"/>
 
@@ -284,16 +299,20 @@ stroke-width="0.5"
   
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
+</button>
 
+<button>
 <!-- donut --> 
-<svg width="256" height="256" viewBox="0 0 256 256">
+<svg width="128" height="128" viewBox="0 0 256 256">
     <circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="black" id="d1"/>
     <circle cx="128" cy="128" r="50" stroke="black" stroke-width="2" fill="white" id="hole"/>
     <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
+</button>
 
+<button>
 <!-- mushroom --> 
-<svg width="256" height="256" viewBox="0 0 256 256">
+<svg width="128" height="128" viewBox="0 0 256 256">
 
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="0.5" fill="black" id="j1"/>
 
@@ -313,7 +332,6 @@ stroke-width="0.5"
     stroke-width="0.5"
   />
 
-  <a href="https://www.google.com/">
   <path
     d="
       M 3.69 141.11749
@@ -375,7 +393,7 @@ stroke-width="0.5"
   
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
-</a>
+</button>
 
 <script>
 let col1 = document.getElementById('color1');
