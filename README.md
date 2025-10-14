@@ -28,7 +28,7 @@ function clicked2() {
 };
 </script>
 
-<h2>Marble Generator</h2>
+<h1>Marble Generator</h1>
 
 <button type="button" onclick="nameGen()">Randomize Name</button>
 
