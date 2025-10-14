@@ -1,8 +1,10 @@
+#potatowzrd.github.io
+
 <button type="button" onclick="clicked()">Click the button, join!</button>
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00037');</script>
+<script>console.log('00038');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -58,14 +60,15 @@ function nameGen()
 
 <p>Choose Your Template</p>
 
-<button>
+<button type="button">
 <!-- blank circle --> 
 <svg width="128" height="128" viewBox="0 0 256 256">
     <circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="white" id="marble"/>
     <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
+</button>
 
-<button>
+<button type="button">
 <!-- yin yang -->
 <svg width="128" height="128" viewBox="0 0 256 256">
   <path
@@ -98,8 +101,9 @@ function nameGen()
 
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
+</button>
 
-<button>
+<button type="button">
 <!-- classic swirl marble -->
 <svg width="128" height="128" viewBox="0 0 256 256">
   <path
@@ -146,7 +150,7 @@ function nameGen()
 </svg>
 </button>
 
-<button>
+<button type="button">
 <!-- smile --> 
 <svg width="128" height="128" viewBox="0 0 256 256">
     
@@ -189,7 +193,7 @@ function nameGen()
 </svg>
 </button>
 
-<button>
+<button type="button">
 <!-- star --> 
 <svg width="128" height="128" viewBox="0 0 256 256">
 
@@ -219,7 +223,7 @@ stroke-width="0.5"
 </svg>
 </button>
 
-<button>
+<button type="button">
 <!-- cross --> 
 <svg width="128" height="128" viewBox="0 0 256 256">
 
@@ -250,7 +254,7 @@ stroke-width="0.5"
 </svg>
 </button>
 
-<button>
+<button type="button">
 <!-- sun&moon --> 
 <svg width="128" height="128" viewBox="0 0 256 256">
 
@@ -297,7 +301,7 @@ stroke-width="0.5"
 </svg>
 </button>
 
-<button>
+<button type="button">
 <!-- donut --> 
 <svg width="128" height="128" viewBox="0 0 256 256">
     <circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="black" id="d1"/>
@@ -306,7 +310,7 @@ stroke-width="0.5"
 </svg>
 </button>
 
-<button>
+<button type="button">
 <!-- mushroom --> 
 <svg width="128" height="128" viewBox="0 0 256 256">
 
