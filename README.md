@@ -1,10 +1,8 @@
-
-<body style="display: none;">
 <button type="button" onclick="clicked()">Click the button, join!</button>
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00036');</script>
+<script>console.log('00037');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -489,5 +487,4 @@ let desC3 = document.getElementById('p4');
         desC2.style.stroke = event.target.value;
         desC3.style.stroke = event.target.value;
     })
-</script>  
-</body>
+</script>
