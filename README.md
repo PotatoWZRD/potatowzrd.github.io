@@ -64,7 +64,6 @@ function nameGen()
     <circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="white" id="marble"/>
     <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
-</button>
 
 <button>
 <!-- yin yang -->
@@ -99,7 +98,6 @@ function nameGen()
 
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
-</button>
 
 <button>
 <!-- classic swirl marble -->
