@@ -1,4 +1,4 @@
-**#potatowzrd.github.io**
+# potatowzrd.github.io
 
 <button type="button" onclick="clicked()">Click the button, join!</button>
 
