@@ -1,5 +1,5 @@
-# potatowzrd.github.io
 
+<body style="display: none;">
 <button type="button" onclick="clicked()">Click the button, join!</button>
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
@@ -490,3 +490,4 @@ let desC3 = document.getElementById('p4');
         desC3.style.stroke = event.target.value;
     })
 </script>  
+</body>
