@@ -283,7 +283,7 @@ stroke-width="0.5"
     stroke-width="0.5"
   />
   
-<circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="c2"/>
+<circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
 
 <!-- donut --> 
@@ -294,16 +294,16 @@ stroke-width="0.5"
 </svg>
 
 <script>
-let col1 = document.getElementById('color1')
-let desA1 = document.getElementById('marble')
-let desA2 = document.getElementById('yy1')
-let desA3 = document.getElementById('yy3')
-let desA4 = document.getElementById('m1')
-let desA5 = document.getElementById('h1')
-let desA6 = document.getElementById('s1')
-let desA7 = document.getElementById('c1')
-let desA8 = document.getElementById('p1')
-let desA9 = document.getElementById('d1')
+let col1 = document.getElementById('color1');
+let desA1 = document.getElementById('marble');
+let desA2 = document.getElementById('yy1');
+let desA3 = document.getElementById('yy3');
+let desA4 = document.getElementById('m1');
+let desA5 = document.getElementById('h1');
+let desA6 = document.getElementById('s1');
+let desA7 = document.getElementById('c1');
+let desA8 = document.getElementById('p1');
+let desA9 = document.getElementById('d1');
     col1.addEventListener('input', (event) => {
         desA1.style.fill = event.target.value;
         desA2.style.fill = event.target.value;
@@ -327,15 +327,15 @@ let desA9 = document.getElementById('d1')
     })
 let col2 = document.getElementById('color2');
 let desB1 = document.getElementById('botC');
-let desB2 = document.getElementById('yy2')
-let desB3 = document.getElementById('yy4')
-let desB4 = document.getElementById('m2')
-let desB5 = document.getElementById('h2')
-let desB6 = document.getElementById('h3')
-let desB7 = document.getElementById('h4')
-let desB8 = document.getElementById('s2')
-let desB9 = document.getElementById('c2')
-let desBA = document.getElementById('p2')
+let desB2 = document.getElementById('yy2');
+let desB3 = document.getElementById('yy4');
+let desB4 = document.getElementById('m2');
+let desB5 = document.getElementById('h2');
+let desB6 = document.getElementById('h3');
+let desB7 = document.getElementById('h4');
+let desB8 = document.getElementById('s2');
+let desB9 = document.getElementById('c2');
+let desB10 = document.getElementById('p2');
     col2.addEventListener('input', (event) => {
         desB1.style.fill = event.target.value;
         desB2.style.fill = event.target.value;
@@ -346,7 +346,7 @@ let desBA = document.getElementById('p2')
         desB7.style.fill = event.target.value;
         desB8.style.fill = event.target.value;
         desB9.style.fill = event.target.value;
-        desBA.style.fill = event.target.value;
+        desB10.style.fill = event.target.value;
         
         desB1.style.stroke = event.target.value;
         desB2.style.stroke = event.target.value;
@@ -357,7 +357,7 @@ let desBA = document.getElementById('p2')
         desB7.style.stroke = event.target.value;
         desB8.style.stroke = event.target.value;
         desB9.style.stroke = event.target.value;
-        desBA.style.stroke = event.target.value;
+        desB10.style.stroke = event.target.value;
     })
 let col3 = document.getElementById('color3');
 let desC1 = document.getElementById('m3');
