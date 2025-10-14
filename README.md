@@ -334,7 +334,7 @@ let desB6 = document.getElementById('h3');
 let desB7 = document.getElementById('h4');
 let desB8 = document.getElementById('s2');
 let desB9 = document.getElementById('c2');
-let desB10 = document.getElementById('p2');
+let desBA = document.getElementById('p2');
     col2.addEventListener('input', (event) => {
         desB1.style.fill = event.target.value;
         desB2.style.fill = event.target.value;
@@ -345,7 +345,7 @@ let desB10 = document.getElementById('p2');
         desB7.style.fill = event.target.value;
         desB8.style.fill = event.target.value;
         desB9.style.fill = event.target.value;
-        desB10.style.fill = event.target.value;
+        desBA.style.fill = event.target.value;
         
         desB1.style.fill = event.target.value;
         desB2.style.fill = event.target.value;
@@ -356,7 +356,7 @@ let desB10 = document.getElementById('p2');
         desB7.style.fill = event.target.value;
         desB8.style.fill = event.target.value;
         desB9.style.fill = event.target.value;
-        desB10.style.fill = event.target.value;
+        desBA.style.fill = event.target.value;
     })
 let col3 = document.getElementById('color3');
 let desC1 = document.getElementById('m3');
