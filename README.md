@@ -347,16 +347,16 @@ let desB10 = document.getElementById('p2');
         desB9.style.fill = event.target.value;
         desB10.style.fill = event.target.value;
         
-        desB1.style.stroke = event.target.value;
-        desB2.style.stroke = event.target.value;
-        desB3.style.stroke = event.target.value;
-        desB4.style.stroke = event.target.value;
-        desB5.style.stroke = event.target.value;
-        desB6.style.stroke = event.target.value;
-        desB7.style.stroke = event.target.value;
-        desB8.style.stroke = event.target.value;
-        desB9.style.stroke = event.target.value;
-        desB10.style.stroke = event.target.value;
+        desB1.style.fill = event.target.value;
+        desB2.style.fill = event.target.value;
+        desB3.style.fill = event.target.value;
+        desB4.style.fill = event.target.value;
+        desB5.style.fill = event.target.value;
+        desB6.style.fill = event.target.value;
+        desB7.style.fill = event.target.value;
+        desB8.style.fill = event.target.value;
+        desB9.style.fill = event.target.value;
+        desB10.style.fill = event.target.value;
     })
 let col3 = document.getElementById('color3');
 let desC1 = document.getElementById('m3');
