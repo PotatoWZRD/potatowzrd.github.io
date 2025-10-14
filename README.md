@@ -312,7 +312,8 @@ stroke-width="0.5"
     stroke="white"
     stroke-width="0.5"
   />
-  
+
+  <a href="https://www.google.com/">
   <path
     d="
       M 3.69 141.11749
@@ -374,6 +375,7 @@ stroke-width="0.5"
   
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
+</a>
 
 <script>
 let col1 = document.getElementById('color1');
