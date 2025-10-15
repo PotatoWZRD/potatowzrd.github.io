@@ -390,18 +390,6 @@ stroke-width="0.5"
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
 
-<select>
-    <option>1</option>
-    <option>2</option>
-    <option>3</option>
-    <option>4</option>
-    <option>5</option>
-    <option>6</option>
-    <option>7</option>
-    <option>8</option>
-    <option>9</option>
-</select>
-
 <script>
 let col1 = document.getElementById('color1');
 let desA1 = document.getElementById('marble');
