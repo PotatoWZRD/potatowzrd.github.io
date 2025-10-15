@@ -32,8 +32,9 @@ function clicked2() {
 
 <h1>Marble Generator</h1>
 
-<button type="button" onclick="nameGen()">Randomize Names</button>
+<button type="button" onclick="nameGen()">Reroll Names</button>
 
+<p>Select your name:</p>
 <div id="results"></div>
 
 <script>
@@ -52,7 +53,7 @@ function nameGen()
             var sname = sNames[Math.floor(Math.random() * sNames.length)];
             var fullName = fname + " " + sname;
     
-            var ele = document.createElement("button");
+            var ele = document.createElement("span");
             ele.innerText = fullName;
             ele.style.display = "block";
             resultsDiv.appendChild(ele);
@@ -60,6 +61,7 @@ function nameGen()
 }
 </script>
 
+<br>
 <input type="color" value="#ffffff" id="color1">
 <input type="color" value="#ffffff" id="color2">
 <input type="color" value="#ffffff" id="color3">
