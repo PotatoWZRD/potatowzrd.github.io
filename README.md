@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00044');</script>
+<script>console.log('00045');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -32,8 +32,9 @@ function clicked2() {
 
 <h1>Marble Generator</h1>
 
+<button type="button" onclick="nameGen()">Randomize Names</button>
+
 <div id="results"></div>
-<button type="button" onclick="nameGen()">Randomize Name</button>
 
 <script>
 
@@ -46,7 +47,7 @@ function nameGen()
     var resultsDiv = document.getElementById("results");
     resultsDiv.innerHTML = "";
     
-        for (var count = 0; count < 5; count++) {
+        for (var i = 0; i < 3; i++) {
             var fname = fNames[Math.floor(Math.random() * fNames.length)];
             var sname = sNames[Math.floor(Math.random() * sNames.length)];
             var fullName = fname + " " + sname;
