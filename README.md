@@ -47,6 +47,13 @@ function nameGen()
 
     var sname = sNames[Math.floor(Math.random() * sNames.length)];
     document.getElementById('sname').innerHTML = sname;
+
+    var count = 0;
+    while(count < 5){   
+        <span id="fname"></span>
+        <span id="sname"></span>
+        count++;
+    }
 }
 </script>
 
