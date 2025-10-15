@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00041');</script>
+<script>console.log('00042');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -241,8 +241,6 @@ stroke-width="0.5"
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
 
-<select>
-    <option value="sun">
         <!-- sun&moon --> 
         <svg width="128" height="128" viewBox="0 0 256 256">
         
@@ -287,18 +285,14 @@ stroke-width="0.5"
           
         <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
         </svg>
-    </option>
 
-<option value="width">
     <!-- donut --> 
     <svg width="128" height="128" viewBox="0 0 256 256">
         <circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="black" id="d1"/>
         <circle cx="128" cy="128" r="50" stroke="black" stroke-width="2" fill="white" id="hole"/>
         <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
     </svg>
-</option>
 
-<option value="mush">
         <!-- mushroom --> 
         <svg width="128" height="128" viewBox="0 0 256 256">
         
@@ -381,8 +375,6 @@ stroke-width="0.5"
           
         <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
         </svg>
-    </option>
-</select>
 
 <script>
 let col1 = document.getElementById('color1');
