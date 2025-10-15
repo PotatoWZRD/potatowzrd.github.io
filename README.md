@@ -72,15 +72,12 @@ function nameGen()
 
 <p>Choose Your Template</p>
 
-<button type="button">
 <!-- blank circle --> 
 <svg width="128" height="128" viewBox="0 0 256 256">
     <circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="white" id="marble"/>
     <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
-</button>
 
-<button type="button">
 <!-- yin yang -->
 <svg width="128" height="128" viewBox="0 0 256 256">
   <path
@@ -113,9 +110,7 @@ function nameGen()
 
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
-</button>
 
-<button type="button">
 <!-- classic swirl marble -->
 <svg width="128" height="128" viewBox="0 0 256 256">
   <path
@@ -160,9 +155,7 @@ function nameGen()
   
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
-</button>
 
-<button type="button">
 <!-- smile --> 
 <svg width="128" height="128" viewBox="0 0 256 256">
     
@@ -203,9 +196,7 @@ function nameGen()
   />
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
-</button>
 
-<button type="button">
 <!-- star --> 
 <svg width="128" height="128" viewBox="0 0 256 256">
 
@@ -233,9 +224,7 @@ stroke-width="0.5"
 
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
-</button>
 
-<button type="button">
 <!-- cross --> 
 <svg width="128" height="128" viewBox="0 0 256 256">
 
@@ -264,9 +253,9 @@ stroke-width="0.5"
   />
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
-</button>
 
-<button type="button">
+<select>
+<option>
 <!-- sun&moon --> 
 <svg width="128" height="128" viewBox="0 0 256 256">
 
@@ -311,18 +300,18 @@ stroke-width="0.5"
   
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
-</button>
+</option>
 
-<button type="button">
+<option>
 <!-- donut --> 
 <svg width="128" height="128" viewBox="0 0 256 256">
     <circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="black" id="d1"/>
     <circle cx="128" cy="128" r="50" stroke="black" stroke-width="2" fill="white" id="hole"/>
     <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
-</button>
+</option>
 
-<button type="button">
+<option>
 <!-- mushroom --> 
 <svg width="128" height="128" viewBox="0 0 256 256">
 
@@ -405,7 +394,8 @@ stroke-width="0.5"
   
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
-</button>
+</option>
+</select>
 
 <script>
 let col1 = document.getElementById('color1');
