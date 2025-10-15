@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00042');</script>
+<script>console.log('00043');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -241,140 +241,140 @@ stroke-width="0.5"
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
 
-        <!-- sun&moon --> 
-        <svg width="128" height="128" viewBox="0 0 256 256">
-        
-        <circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="white" id="p1"/>
-        
-          <path
-            d="
-              M 174.875 243.8781
-              Q 118 222 100.71927 159.25
-              L 159.25 128
-              L 100.71929 96.75
-              Q 118 34 174.875 12.1219
-              C 280 60 280 200 174.875 243.8781
-              "
-            fill= "grey"
-            id="p2"
-            stroke="grey"
-            stroke-width="0.5"
-          />
-          <path
-            d="
-              M 174.875 96.75
-              A 0.5 1 0 0 1 174.875 49.875
-              A 0.5 1 0 0 1 174.875 96.75
-              "
-            fill= "black"
-            id="p3"
-            stroke="black"
-            stroke-width="0.5"
-          />
-          <path
-            d="
-              M 65.5 96.75
-              A 0.5 1 0 0 1 65.5 49.875
-              A 0.5 1 0 0 1 65.5 96.75
-              "
-            fill= "black"
-            id="p4"
-            stroke="black"
-            stroke-width="0.5"
-          />
-          
-        <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
-        </svg>
+<!-- sun&moon --> 
+<svg width="128" height="128" viewBox="0 0 256 256">
 
-    <!-- donut --> 
-    <svg width="128" height="128" viewBox="0 0 256 256">
-        <circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="black" id="d1"/>
-        <circle cx="128" cy="128" r="50" stroke="black" stroke-width="2" fill="white" id="hole"/>
-        <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
-    </svg>
+<circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="white" id="p1"/>
 
-        <!-- mushroom --> 
-        <svg width="128" height="128" viewBox="0 0 256 256">
-        
-        <circle cx="128" cy="128" r="125" stroke="black" stroke-width="0.5" fill="black" id="j1"/>
-        
-          <path
-            d="
-              M 7.1 95.5
-              C 27.6 103.5 18.6 85.6 35.8 84.5
-              C 57.2 83.2 48 103.3 68.8 96.6
-              C 92.9 81.2 56.5 66.5 83 44.4
-              C 92 36 111.9 39.7 118.6 28.3
-              C 125 16 126 3 114 3.78467
-              C 63 6 15 56 7.1 95.5
-              "
-            fill= "white"
-            id="j2"
-            stroke="white"
-            stroke-width="0.5"
-          />
-        
-          <path
-            d="
-              M 3.69 141.11749
-              C 2.3 136.2 9.4 148.7 20 146
-              C 31.8 144.5 40.3 127.9 55.3 136.5
-              C 69.8 147 55.3 161.7 68 180
-              C 75 194.6 97 188 100 207
-              C 100 220 94 239 83 244.61904
-              C 40 230 3 177 3.69 141.11749
-              "
-            fill= "white"
-            id="j3"
-            stroke="white"
-            stroke-width="0.5"
-          />
-          
-          <path
-            d="
-              M 170 245.73275 
-              Q 182 182 235 192.62198
-              Q 206 235 170 245.73275
-              "
-            fill= "white"
-            id="j4"
-            stroke="white"
-            stroke-width="0.5"
-          />
-          
-          <path
-            d="
-              M 118 148
-              C 93.7 128 116.6 124 127 120
-              C 147.5 108.5 133 94.5 146 89
-              C 175.7 83.4 153 104.7 180 125
-              C 192.5 136 204.5 136.4 200 148
-              C 188 171.2 171.4 149.8 155 150
-              C 133 158 133 155 118 148
-              "
-            fill= "white"
-            id="j5"
-            stroke="white"
-            stroke-width="0.5"
-          />
-          
-          <path
-            d="
-              M 220 92
-              C 202 81 215 71 201 53
-              C 193 39 165 41 163 27
-              Q 160 16 171 10.62879
-              C 203 18 243 65 245 84
-              Q 242.4 96.1 220 92
-              "
-            fill= "white"
-            id="j6"
-            stroke="white"
-            stroke-width="0.5"
-          />
-          
-        <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
-        </svg>
+  <path
+    d="
+      M 174.875 243.8781
+      Q 118 222 100.71927 159.25
+      L 159.25 128
+      L 100.71929 96.75
+      Q 118 34 174.875 12.1219
+      C 280 60 280 200 174.875 243.8781
+      "
+    fill= "grey"
+    id="p2"
+    stroke="grey"
+    stroke-width="0.5"
+  />
+  <path
+    d="
+      M 174.875 96.75
+      A 0.5 1 0 0 1 174.875 49.875
+      A 0.5 1 0 0 1 174.875 96.75
+      "
+    fill= "black"
+    id="p3"
+    stroke="black"
+    stroke-width="0.5"
+  />
+  <path
+    d="
+      M 65.5 96.75
+      A 0.5 1 0 0 1 65.5 49.875
+      A 0.5 1 0 0 1 65.5 96.75
+      "
+    fill= "black"
+    id="p4"
+    stroke="black"
+    stroke-width="0.5"
+  />
+  
+<circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
+</svg>
+
+<!-- donut --> 
+<svg width="128" height="128" viewBox="0 0 256 256">
+<circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="black" id="d1"/>
+<circle cx="128" cy="128" r="50" stroke="black" stroke-width="2" fill="white" id="hole"/>
+<circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
+</svg>
+
+<!-- mushroom --> 
+<svg width="128" height="128" viewBox="0 0 256 256">
+
+<circle cx="128" cy="128" r="125" stroke="black" stroke-width="0.5" fill="black" id="j1"/>
+
+  <path
+    d="
+      M 7.1 95.5
+      C 27.6 103.5 18.6 85.6 35.8 84.5
+      C 57.2 83.2 48 103.3 68.8 96.6
+      C 92.9 81.2 56.5 66.5 83 44.4
+      C 92 36 111.9 39.7 118.6 28.3
+      C 125 16 126 3 114 3.78467
+      C 63 6 15 56 7.1 95.5
+      "
+    fill= "white"
+    id="j2"
+    stroke="white"
+    stroke-width="0.5"
+  />
+
+  <path
+    d="
+      M 3.69 141.11749
+      C 2.3 136.2 9.4 148.7 20 146
+      C 31.8 144.5 40.3 127.9 55.3 136.5
+      C 69.8 147 55.3 161.7 68 180
+      C 75 194.6 97 188 100 207
+      C 100 220 94 239 83 244.61904
+      C 40 230 3 177 3.69 141.11749
+      "
+    fill= "white"
+    id="j3"
+    stroke="white"
+    stroke-width="0.5"
+  />
+  
+  <path
+    d="
+      M 170 245.73275 
+      Q 182 182 235 192.62198
+      Q 206 235 170 245.73275
+      "
+    fill= "white"
+    id="j4"
+    stroke="white"
+    stroke-width="0.5"
+  />
+  
+  <path
+    d="
+      M 118 148
+      C 93.7 128 116.6 124 127 120
+      C 147.5 108.5 133 94.5 146 89
+      C 175.7 83.4 153 104.7 180 125
+      C 192.5 136 204.5 136.4 200 148
+      C 188 171.2 171.4 149.8 155 150
+      C 133 158 133 155 118 148
+      "
+    fill= "white"
+    id="j5"
+    stroke="white"
+    stroke-width="0.5"
+  />
+  
+  <path
+    d="
+      M 220 92
+      C 202 81 215 71 201 53
+      C 193 39 165 41 163 27
+      Q 160 16 171 10.62879
+      C 203 18 243 65 245 84
+      Q 242.4 96.1 220 92
+      "
+    fill= "white"
+    id="j6"
+    stroke="white"
+    stroke-width="0.5"
+  />
+  
+<circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
+</svg>
 
 <script>
 let col1 = document.getElementById('color1');
