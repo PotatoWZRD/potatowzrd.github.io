@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00047');</script>
+<script>console.log('00048');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -32,10 +32,7 @@ function clicked2() {
 
 <h1>Marble Generator</h1>
 
-<button type="button" onclick="nameGen()">Reroll Names</button>
-
-<p>Select your name:</p>
-<div id="results"></div>
+<button type="button" onclick="nameGen()">Reroll Name</button>
 
 <script>
 
