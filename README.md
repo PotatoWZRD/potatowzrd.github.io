@@ -79,6 +79,7 @@ function nameGen()
     <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
 
+<button>
 <!-- yin yang -->
 <svg width="128" height="128" viewBox="0 0 256 256">
   <path
@@ -111,6 +112,7 @@ function nameGen()
 
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
+</button>
 
 <!-- classic swirl marble -->
 <svg width="128" height="128" viewBox="0 0 256 256">
