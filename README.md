@@ -19,8 +19,10 @@
 <script>
 function clicked() {
     console.log('button clicked');
+
     var name = document.getElementById('finalName');
-    ws.send('{\"type\":\"button\",\"client\":\"butter\", \"name\":\"+name+\"}'); 
+    ws.send('{\"type\":\"button\",\"client\":\"butter\", \"name\":\"+name+\"}');   
+    console.log('{\"type\":\"button\",\"client\":\"butter\", \"name\":\"+name+\"}');
 };
 </script>
 
