@@ -1,23 +1,10 @@
 # potatowzrd.github.io
 
-<style>
-    button {
-  all: unset;
-  display: inline-block;
-  cursor: pointer;
-  line-height: 0;
-}
-
-button svg {
-  display: block;
-}
-</style>
-
 <button type="button" onclick="clicked()">Click the button, join!</button>
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00040');</script>
+<script>console.log('00041');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
