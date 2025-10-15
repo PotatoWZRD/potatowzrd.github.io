@@ -4,7 +4,7 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00045');</script>
+<script>console.log('00046');</script>
 
 <script>
     const ws = new WebSocket('wss://strainlessly-transfusive-ahmed.ngrok-free.dev');
@@ -53,9 +53,10 @@ function nameGen()
             var sname = sNames[Math.floor(Math.random() * sNames.length)];
             var fullName = fname + " " + sname;
     
-            var ele = document.createElement("span");
+            var ele = document.createElement("button");
             ele.innerText = fullName;
-            ele.style.display = "block";
+            ele.style.text-align = "center";
+            ele.style.padding = "15px 32px";
             resultsDiv.appendChild(ele);
         }
 }
