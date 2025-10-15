@@ -52,7 +52,7 @@ function nameGen()
             var sname = sNames[Math.floor(Math.random() * sNames.length)];
             var fullName = fname + " " + sname;
     
-            var ele = document.createElement("span");
+            var ele = document.createElement("button");
             ele.innerText = fullName;
             ele.style.display = "block";
             resultsDiv.appendChild(ele);
