@@ -1,7 +1,7 @@
 # potatowzrd.github.io
 
 <script>
-    console.log('00057');
+    console.log('00058');
 </script>
 
 <button type="button" onclick="joinClick()">Click the button, join!</button>
@@ -42,6 +42,12 @@ function nameGen()
         { console.log(event.data);});
 </script>
 
+<input type="color" value="#ffffff" id="color1">
+<input type="color" value="#808080" id="color2">
+<input type="color" value="#000000" id="color3">
+
+<p>Choose Your Template</p>
+
 <select id="templates">
     <option>Basic</option>
     <option>Yin Yang</option>
@@ -54,6 +60,7 @@ function nameGen()
     <option>Cowprint</option>
 </select>
 
+<!-- data to send when joining -->
 <script>
 function joinClick() {
     console.log('button clicked');
@@ -71,12 +78,6 @@ function clicked2() {
     ws.send('{\"type\":\"button2\",\"client\":\"butter\"}'); 
 };
 </script>
-
-<input type="color" value="#ffffff" id="color1">
-<input type="color" value="#808080" id="color2">
-<input type="color" value="#000000" id="color3">
-
-<p>Choose Your Template</p>
 
 <!-- blank circle --> 
 <svg width="128" height="128" viewBox="0 0 256 256">
