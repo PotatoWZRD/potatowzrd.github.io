@@ -1,5 +1,9 @@
 # potatowzrd.github.io
 
+<script>
+    console.log('00055');
+</script>
+
 <button type="button" onclick="clicked()">Click the button, join!</button>
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
@@ -25,7 +29,6 @@ function nameGen()
 <span id="finalName"></span>
 
 <script>
-    console.log('00054');
     nameGen();
 </script>
 
@@ -59,8 +62,8 @@ function clicked2() {
 
 <br>
 <input type="color" value="#ffffff" id="color1">
-<input type="color" value="#ffffff" id="color2">
-<input type="color" value="#ffffff" id="color3">
+<input type="color" value="#adadad" id="color2">
+<input type="color" value="#000000" id="color3">
 
 <p>Choose Your Template</p>
 
