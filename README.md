@@ -18,6 +18,12 @@ function nameGen()
 }
 </script>
 
+<h1>Marble Generator</h1>
+
+<button type="button" onclick="nameGen()">Reroll Name</button>
+
+<span id="finalName"></span>
+
 <script>
     console.log('00054');
     nameGen();
@@ -50,11 +56,6 @@ function clicked2() {
 };
 </script>
 
-<h1>Marble Generator</h1>
-
-<button type="button" onclick="nameGen()">Reroll Name</button>
-
-<span id="finalName"></span>
 
 <br>
 <input type="color" value="#ffffff" id="color1">
