@@ -43,8 +43,8 @@ function nameGen()
 </script>
 
 <input type="color" value="#ffffff" id="color1">
-<input type="color" value="#808080" id="color2">
-<input type="color" value="#000000" id="color3">
+<input type="color" value="#000000" id="color2">
+<input type="color" value="#808080" id="color3">
 
 <p>Choose Your Template</p>
 
@@ -84,7 +84,7 @@ function clicked2() {
 
 <!-- blank circle --> 
 <svg width="128" height="128" viewBox="0 0 256 256">
-    <circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="white" id="marble"/>
+    <circle cx="128" cy="128" r="125" stroke="white" stroke-width="0.5" fill="white" id="marble"/>
     <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
 
@@ -97,9 +97,9 @@ function clicked2() {
       A 62.5 62.5 0 0 1 128 128
       A 62.5 62.5 1 0 0 128 253
       "
-    fill= "black"
+    fill= "white"
     id="yy1"
-    stroke="none"
+    stroke="white"
     stroke-width="0.5"
   />
    <path
@@ -109,14 +109,14 @@ function clicked2() {
       A 62.5 62.5 0 0 1 128 128
       A 62.5 62.5 1 0 0 128 3
       "
-    fill= "white"
+    fill= "black"
     id="yy2"
-    stroke="none"
+    stroke="black"
     stroke-width="0.5"
   />
 
-<circle cx="128" cy="190.5" r="25" stroke="none" stroke-width="2" fill="black" id="yy3"/>
-<circle cx="128" cy="65.5" r="25" stroke="none" stroke-width="2" fill="white" id="yy4"/>
+<circle cx="128" cy="190.5" r="25" stroke="white" stroke-width="2" fill="white" id="yy3"/>
+<circle cx="128" cy="65.5" r="25" stroke="black" stroke-width="2" fill="black" id="yy4"/>
 
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
@@ -132,7 +132,7 @@ function clicked2() {
       "
     fill= "white"
     id="m1"
-    stroke="none"
+    stroke="white"
     stroke-width="0.5"
   />
     
@@ -144,9 +144,9 @@ function clicked2() {
       A 1 1 0 0 0 19.74682 190.5
       A 1 1 0 0 1 100.93671 143.625
       "
-    fill= "grey"
+    fill= "black"
     id="m2"
-    stroke="none"
+    stroke="black"
     stroke-width="0.5"
   />
   
@@ -157,9 +157,9 @@ function clicked2() {
       A 1 1 0 0 1 19.74682 190.5
       A 1 1 0 0 1 100.93671 143.625
       "
-    fill= "black"
+    fill= "grey"
     id="m3"
-    stroke="none"
+    stroke="grey"
     stroke-width="0.5"
   />
   
@@ -210,7 +210,7 @@ function clicked2() {
 <!-- star --> 
 <svg width="128" height="128" viewBox="0 0 256 256">
 
-<circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="black" id="s1"/>
+<circle cx="128" cy="128" r="125" stroke="white" stroke-width="0.5" fill="white" id="s1"/>
 
 <path
     d="
@@ -226,9 +226,9 @@ function clicked2() {
         L 99.93575 87.37288
         L 128 3
     "     
-fill="white"
+fill="black"
 id="s2"
-stroke="white"
+stroke="black"
 stroke-width="0.5"
 />
 
@@ -238,7 +238,7 @@ stroke-width="0.5"
 <!-- cross --> 
 <svg width="128" height="128" viewBox="0 0 256 256">
 
-<circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="white" id="c1"/>
+<circle cx="128" cy="128" r="125" stroke="white" stroke-width="0.5" fill="white" id="c1"/>
 
   <path
     d="
@@ -267,7 +267,7 @@ stroke-width="0.5"
 <!-- sun&moon --> 
 <svg width="128" height="128" viewBox="0 0 256 256">
 
-<circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="white" id="p1"/>
+<circle cx="128" cy="128" r="125" stroke="white" stroke-width="0.5" fill="white" id="p1"/>
 
   <path
     d="
@@ -278,9 +278,9 @@ stroke-width="0.5"
       Q 118 34 174.875 12.1219
       C 280 60 280 200 174.875 243.8781
       "
-    fill= "grey"
+    fill= "black"
     id="p2"
-    stroke="grey"
+    stroke="black"
     stroke-width="0.5"
   />
   <path
@@ -289,9 +289,9 @@ stroke-width="0.5"
       A 0.5 1 0 0 1 174.875 49.875
       A 0.5 1 0 0 1 174.875 96.75
       "
-    fill= "black"
+    fill= "grey"
     id="p3"
-    stroke="black"
+    stroke="grey"
     stroke-width="0.5"
   />
   <path
@@ -300,9 +300,9 @@ stroke-width="0.5"
       A 0.5 1 0 0 1 65.5 49.875
       A 0.5 1 0 0 1 65.5 96.75
       "
-    fill= "black"
+    fill= "grey"
     id="p4"
-    stroke="black"
+    stroke="grey"
     stroke-width="0.5"
   />
   
@@ -311,7 +311,7 @@ stroke-width="0.5"
 
 <!-- donut --> 
 <svg width="128" height="128" viewBox="0 0 256 256">
-<circle cx="128" cy="128" r="125" stroke="none" stroke-width="0.5" fill="black" id="d1"/>
+<circle cx="128" cy="128" r="125" stroke="white" stroke-width="0.5" fill="white" id="d1"/>
 <circle cx="128" cy="128" r="50" stroke="black" stroke-width="2" fill="white" id="hole"/>
 <circle cx="128" cy="128" r="125" stroke="black" stroke-width="2" fill="none" id="outline"/>
 </svg>
@@ -319,7 +319,7 @@ stroke-width="0.5"
 <!-- mushroom --> 
 <svg width="128" height="128" viewBox="0 0 256 256">
 
-<circle cx="128" cy="128" r="125" stroke="black" stroke-width="0.5" fill="black" id="j1"/>
+<circle cx="128" cy="128" r="125" stroke="white" stroke-width="0.5" fill="white" id="j1"/>
 
   <path
     d="
@@ -331,9 +331,9 @@ stroke-width="0.5"
       C 125 16 126 3 114 3.78467
       C 63 6 15 56 7.1 95.5
       "
-    fill= "white"
+    fill= "black"
     id="j2"
-    stroke="white"
+    stroke="black"
     stroke-width="0.5"
   />
 
@@ -347,9 +347,9 @@ stroke-width="0.5"
       C 100 220 94 239 83 244.61904
       C 40 230 3 177 3.69 141.11749
       "
-    fill= "white"
+    fill= "black"
     id="j3"
-    stroke="white"
+    stroke="black"
     stroke-width="0.5"
   />
   
@@ -359,9 +359,9 @@ stroke-width="0.5"
       Q 182 182 235 192.62198
       Q 206 235 170 245.73275
       "
-    fill= "white"
+    fill= "black"
     id="j4"
-    stroke="white"
+    stroke="black"
     stroke-width="0.5"
   />
   
@@ -375,9 +375,9 @@ stroke-width="0.5"
       C 188 171.2 171.4 149.8 155 150
       C 133 158 133 155 118 148
       "
-    fill= "white"
+    fill= "black"
     id="j5"
-    stroke="white"
+    stroke="black"
     stroke-width="0.5"
   />
   
@@ -390,9 +390,9 @@ stroke-width="0.5"
       C 203 18 243 65 245 84
       Q 242.4 96.1 220 92
       "
-    fill= "white"
+    fill= "black"
     id="j6"
-    stroke="white"
+    stroke="black"
     stroke-width="0.5"
   />
   
