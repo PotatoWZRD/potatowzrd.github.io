@@ -14,6 +14,8 @@
     
     ws.addEventListener('message', (event) => 
         { console.log(event.data);});
+
+    nameGen();
 </script>
 
 <script>
