@@ -1,7 +1,7 @@
 # potatowzrd.github.io
 
 <script>
-    console.log('00058');
+    console.log('00059');
 </script>
 
 <button type="button" onclick="joinClick()">Click the button, join!</button>
@@ -67,8 +67,11 @@ function joinClick() {
 
     var name = document.getElementById('finalName').innerText;
     var design = document.getElementById('templates').value;
-    ws.send('{\"type\":\"button\",\"client\":\"butter\", \"name\":\"'+name+'\", \"design\":\"'+design+'\"}');   
-    console.log('{\"type\":\"button\",\"client\":\"butter\", \"name\":\"+name+\"}');
+    var c1 = document.getElementById('color1').value;
+    var c2 = document.getElementById('color2').value;
+    var c3 = document.getElementById('color3').value;
+    ws.send('{\"type\":\"button\",\"client\":\"butter\", \"name\":\"'+name+'\", \"design\":\"'+design+'\", \"color1\":\"'+c1+'\", \"color2\":\"'+c2+'\", \"color3\":\"'+c3+'\"}');   
+    console.log('{\"type\":\"button\",\"client\":\"butter\", \"name\":\"'+name+'\", \"design\":\"'+design+'\", \"color1\":\"'+c1+'\", \"color2\":\"'+c2+'\", \"color3\":\"'+c3+'\"}');   
 };
 </script>
 
