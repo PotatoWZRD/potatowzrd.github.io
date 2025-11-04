@@ -4,7 +4,10 @@
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
-<script>console.log('00051');</script>
+<script>
+    console.log('00053');
+    nameGen();
+</script>
 
 <script>
 
