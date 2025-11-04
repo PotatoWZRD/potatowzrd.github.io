@@ -62,7 +62,7 @@ function clicked2() {
 
 <br>
 <input type="color" value="#ffffff" id="color1">
-<input type="color" value="#adadad" id="color2">
+<input type="color" value="#808080" id="color2">
 <input type="color" value="#000000" id="color3">
 
 <p>Choose Your Template</p>
