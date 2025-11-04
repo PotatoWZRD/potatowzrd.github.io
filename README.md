@@ -4,7 +4,7 @@
     console.log('00057');
 </script>
 
-<button type="button" onclick="clicked()">Click the button, join!</button>
+<button type="button" onclick="joinClick()">Click the button, join!</button>
 
 <button type="button" onclick="clicked2()">Click the button, 2!</button>
 
@@ -42,12 +42,25 @@ function nameGen()
         { console.log(event.data);});
 </script>
 
+<select id="templates">
+    <option>Basic</option>
+    <option>Yin Yang</option>
+    <option>Swirl</option>
+    <option>Happy</option>
+    <option>Star</option>
+    <option>Cross</option>
+    <option>Sun & Moon</option>
+    <option>Donut</option>
+    <option>Cowprint</option>
+</select>
+
 <script>
-function clicked() {
+function joinClick() {
     console.log('button clicked');
 
     var name = document.getElementById('finalName').innerText;
-    ws.send('{\"type\":\"button\",\"client\":\"butter\", \"name\":\"'+name+'\"}');   
+    var design = document.getElementById('templates').value;
+    ws.send('{\"type\":\"button\",\"client\":\"butter\", \"name\":\"'+name+'\", \"design\":\"'+design+'\"}');   
     console.log('{\"type\":\"button\",\"client\":\"butter\", \"name\":\"+name+\"}');
 };
 </script>
@@ -66,18 +79,6 @@ function clicked2() {
 <input type="color" value="#000000" id="color3">
 
 <p>Choose Your Template</p>
-
-<select id="templates">
-    <option>Basic</option>
-    <option>Yin Yang</option>
-    <option>Swirl</option>
-    <option>Happy</option>
-    <option>Star</option>
-    <option>Cross</option>
-    <option>Sun & Moon</option>
-    <option>Donut</option>
-    <option>Cowprint</option>
-</select>
 
 <!-- blank circle --> 
 <svg width="128" height="128" viewBox="0 0 256 256">
