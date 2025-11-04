@@ -1,7 +1,7 @@
 # potatowzrd.github.io
 
 <script>
-    console.log('00056');
+    console.log('00057');
 </script>
 
 <button type="button" onclick="clicked()">Click the button, join!</button>
@@ -46,7 +46,7 @@ function nameGen()
 function clicked() {
     console.log('button clicked');
 
-    var name = document.getElementById('finalName').innerHTML;
+    var name = document.getElementById('finalName').innerText;
     ws.send('{\"type\":\"button\",\"client\":\"butter\", \"name\":\"'+name+'\"}');   
     console.log('{\"type\":\"button\",\"client\":\"butter\", \"name\":\"+name+\"}');
 };
