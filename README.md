@@ -4,9 +4,9 @@
     console.log('00059');
 </script>
 
-<button type="button" onclick="joinClick()">JOIN!</button>
+<button type="button" style="width:200px;height:100px;" onclick="joinClick()">JOIN!</button>
 
-<button type="button" onclick="clicked2()">JUMP!</button>
+<button type="button" style="width:200px;height:100px;" onclick="clicked2()">JUMP!</button>
 
 <script>
 function nameGen()
