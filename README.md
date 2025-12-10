@@ -1,12 +1,8 @@
 # potatowzrd.github.io
 
 <script>
-    console.log('00059');
+    console.log('00060');
 </script>
-
-<button type="button" style="width:200px;height:100px;" onclick="joinClick()">JOIN!</button>
-
-<button type="button" style="width:200px;height:100px;" onclick="clicked2()">JUMP!</button>
 
 <script>
 function nameGen()
@@ -60,6 +56,10 @@ function nameGen()
     <option>Cowprint</option>
 </select>
 
+<button type="button" style="width:200px;height:100px;" onclick="joinClick()">JOIN!</button>
+
+<button type="button" style="width:200px;height:100px;" onclick="clickedf()">JUMP!</button>
+
 <!-- data to send when joining -->
 <script>
 function joinClick() {
@@ -76,9 +76,21 @@ function joinClick() {
 </script>
 
 <script>
-function clicked2() {
-    console.log('second button');
+function clickedf() {
+    console.log('fire button');
     ws.send('{\"type\":\"button2\",\"client\":\"butter\"}'); 
+};
+</script>
+<script>
+function clickeds() {
+    console.log('sword button');
+    ws.send('{\"type\":\"button3\",\"client\":\"butter\"}'); 
+};
+</script>
+<script>
+function clickedb() {
+    console.log('bomb button');
+    ws.send('{\"type\":\"button4\",\"client\":\"butter\"}'); 
 };
 </script>
 
