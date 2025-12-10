@@ -540,4 +540,6 @@ let desC3 = document.getElementById('p4');
 
 <button type="button" style="width:200px;height:100px;" onclick="joinClick()">JOIN!</button>
 
-<button type="button" style="width:200px;height:100px;" onclick="clickedf()">JUMP!</button>
+<button type="button" style="width:200px;height:100px;" onclick="clickedf()">FIREBALL!</button>
+<button type="button" style="width:200px;height:100px;" onclick="clickeds()">SWORD!!</button>
+<button type="button" style="width:200px;height:100px;" onclick="clickedb()">BOMB!!!</button>
