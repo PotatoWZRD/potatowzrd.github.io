@@ -1,7 +1,7 @@
 # potatowzrd.github.io
 
 <script>
-    console.log('00060');
+    console.log('00061');
 </script>
 
 <script>
@@ -55,10 +55,6 @@ function nameGen()
     <option>Donut</option>
     <option>Cowprint</option>
 </select>
-
-<button type="button" style="width:200px;height:100px;" onclick="joinClick()">JOIN!</button>
-
-<button type="button" style="width:200px;height:100px;" onclick="clickedf()">JUMP!</button>
 
 <!-- data to send when joining -->
 <script>
@@ -506,3 +502,7 @@ let desC3 = document.getElementById('p4');
         desC3.style.stroke = event.target.value;
     })
 </script>
+
+<button type="button" style="width:200px;height:100px;" onclick="joinClick()">JOIN!</button>
+
+<button type="button" style="width:200px;height:100px;" onclick="clickedf()">JUMP!</button>
