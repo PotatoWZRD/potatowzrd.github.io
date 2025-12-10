@@ -80,24 +80,29 @@ function joinClick() {
 };
 </script>
 
+<!--
 <script>
 function clickedf() {
     console.log('fire button');
     ws.send('{\"type\":\"button2\",\"client\":\"butter\"}'); 
 };
 </script>
+-->
 <script>
 function clickeds() {
     console.log('sword button');
     ws.send('{\"type\":\"button3\",\"client\":\"butter\"}'); 
 };
 </script>
+
+<!--
 <script>
 function clickedb() {
     console.log('bomb button');
     ws.send('{\"type\":\"button4\",\"client\":\"butter\"}'); 
 };
 </script>
+-->
 
 <!-- blank circle --> 
 <svg width="128" height="128" viewBox="0 0 256 256">
