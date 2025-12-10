@@ -4,6 +4,13 @@
     console.log('00061');
 </script>
 
+
+<button type="button" style="width:200px;height:100px;" onclick="joinClick()">JOIN!</button>
+
+<button type="button" style="width:200px;height:100px;" onclick="clickedf()">FIREBALL!</button>
+<button type="button" style="width:200px;height:100px;" onclick="clickeds()">SWORD!!</button>
+<button type="button" style="width:200px;height:100px;" onclick="clickedb()">BOMB!!!</button>
+
 <script>
 function nameGen()
 {
@@ -504,9 +511,3 @@ let desC3 = document.getElementById('p4');
         desC3.style.stroke = event.target.value;
     })
 </script>
-
-<button type="button" style="width:200px;height:100px;" onclick="joinClick()">JOIN!</button>
-
-<button type="button" style="width:200px;height:100px;" onclick="clickedf()">FIREBALL!</button>
-<button type="button" style="width:200px;height:100px;" onclick="clickeds()">SWORD!!</button>
-<button type="button" style="width:200px;height:100px;" onclick="clickedb()">BOMB!!!</button>
