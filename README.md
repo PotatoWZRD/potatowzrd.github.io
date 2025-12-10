@@ -58,39 +58,6 @@ function nameGen()
 
 <!-- abilities -->
 
-<!--
-I will make my own version of this. Thank you https://stackoverflow.com/questions/59954761/html-javascript-make-text-appear-when-dropdown-menu-option-selected
--->
-
-<div class="dropdown">
-  <select name="list" id="list">
-    <option value="none">Fireball</option>
-    <option value="one">Sword</option>
-    <option value="two">Bomb</option>
-  </select>
-  <input id="select" type="button" value="Select">
-  <div id="response"></div>
-</div>
-
-<script>
-const EL_list = document.querySelector('#list');
-const EL_select = document.querySelector('#select');
-const EL_response = document.querySelector('#response');
-const messages = {
-  none: "You shoot a fireball vertically up!", 
-  one: "Swings around you for a moment!",
-  two: "Place it down and watch marbles fly!",
-};
-
-EL_select.addEventListener('click', evt => {
-  const val = EL_list.value;
-  const msg = messages[val];
-  
-  EL_response.textContent = msg;
-});
-</script>
-
-
 <!-- data to send when joining -->
 <script>
 function joinClick() {
